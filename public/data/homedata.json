@@ -1,0 +1,55 @@
+{
+    "news": {
+      "sectionTitle": "In the News",
+      "title": "Lab Achievements",
+      "items": [
+        "Prof. Borton appointed Director of the Institute of Biology, Engineering, and Medicine (I-BEAM)",
+        "Welcoming new Biomedical Engineering doctoral student Julia Gangemi",
+        "Borton Lab wins 2nd place at the Matled Barley Trivia Night",
+        "Sophie Brown receives Carney Institute for Brain Science Graduate Award"
+      ]
+    },
+    "funding": {
+      "sectionTitle": "Funding",
+      "content": "We are funded by the Defense Advanced Research Projects Agency (DARPA), the National Institute for Neurological Disorders and Stroke, the National Institute for Mental Health, and the Department of Veterans Affairs.",
+      "logos": [
+        { "src": "/assets/logos/va.png", "alt": "U.S. Department of Veterans Affairs" },
+        { "src": "/assets/logos/darpa.png", "alt": "DARPA" },
+        { "src": "/assets/logos/ninds.png", "alt": "National Institute of Neurological Disorders and Stroke" },
+        { "src": "/assets/logos/nimh.png", "alt": "National Institute of Mental Health" }
+      ]
+    },
+    "diversity": {
+      "sectionTitle": "Diversity, Equity, and Inclusion",
+      "content": "We are committed to creating an environment that supports diverse thoughts, perspectives, and experiences. Our lab seeks to recruit, support, and retain members from backgrounds historically underrepresented in sciences.",
+      "values": [
+        "Inclusive Culture",
+        "Respect for Identities",
+        "Supporting Underrepresented Groups"
+      ]
+    },
+    "opportunities": {
+      "sectionTitle": "Research Opportunities",
+      "areas": [
+        {
+          "title": "Doctoral Openings",
+          "description": "Seeking motivated students in neurotechnology, sensorimotor control, and neurological research.",
+          "linkText": "Learn More",
+          "link": "/opportunities"
+        },
+        {
+          "title": "Postdoctoral Positions",
+          "description": "Opportunities in electrophysiology, biomarker detection, and implantable hardware development.",
+          "linkText": "Apply Now",
+          "link": "/opportunities"
+        },
+        {
+          "title": "Undergraduate Research",
+          "description": "Positions for students in computer science, neuroscience, and biology with passion for human health.",
+          "linkText": "Explore",
+          "link": "/opportunities"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,158 @@
+{
+  "title": "PROJECTS",
+  "projects": [
+    {
+      "id": 1,
+      "title": "DEEP THINKING",
+      "categories": [
+        "IN MACHINE LEARNING",
+        "Cognitive Computing",
+        "Advanced Algorithms"
+      ],
+      "date": "October 22, 2021",
+      "description": "Human-inspired thinking systems can solve complex logical reasoning problems. In this project, we explore advanced neural networks and innovative algorithms to mimic human cognitive processes and improve problem solving. This research provides insights into the potential for artificial intelligence to complement human creativity in various domains.",
+      "image": "/assets/images/deep-thinking.png",
+      "formula": "e^(iπ) + 1 = 0",
+      "github": "https://github.com/username/deep-thinking",
+      "arxiv": "https://arxiv.org/abs/1234.5678",
+      "twitter": "https://twitter.com/deepthinking"
+    },
+    {
+      "id": 2,
+      "title": "SONIFICATION",
+      "categories": [
+        "IN MACHINE LEARNING",
+        "Audio Analysis",
+        "Signal Processing"
+      ],
+      "date": "October 20, 2021",
+      "description": "We sonify what neurons respond to in a speech recognition model, transforming data into auditory signals. This approach not only makes it easier to interpret complex activations in deep neural networks but also opens up new pathways for analyzing and understanding the behavior of these models.",
+      "image": "/assets/images/sonification.png",
+      "webpage": "https://example.com/sonification-page"
+    },
+    {
+      "id": 3,
+      "title": "ADVERSARIAL DEFENSES",
+      "categories": [
+        "ADVERSARIAL LEARNING",
+        "Cybersecurity",
+        "Robust AI"
+      ],
+      "date": "November 5, 2021",
+      "description": "Exploring robust defenses against adversarial attacks in neural networks, this project investigates multiple techniques to safeguard machine learning models from malicious inputs. By analyzing potential vulnerabilities, the research aims to improve the security and reliability of AI systems deployed in critical applications.",
+      "image": "/assets/images/deep-thinking.png",
+      "github": "https://github.com/username/adversarial-defenses"
+    },
+    {
+      "id": 4,
+      "title": "AUDIO AUGMENTATION",
+      "categories": [
+        "AUDIO",
+        "Sound Synthesis",
+        "Data Augmentation"
+      ],
+      "date": "November 12, 2021",
+      "description": "Using data augmentation techniques to enhance audio datasets for deep learning, this project demonstrates how synthetic data can improve model robustness. The study involves applying transformations and noise injections to create varied audio samples that lead to better generalization in neural network training.",
+      "image": "/assets/images/deep-thinking.png",
+      "twitter": "https://twitter.com/audioaug"
+    },
+    {
+      "id": 5,
+      "title": "ENHANCED MEDICAL IMAGING",
+      "categories": [
+        "MEDICAL IMAGING",
+        "Diagnostic AI",
+        "Healthcare Tech"
+      ],
+      "date": "December 2, 2021",
+      "description": "Improving diagnostics with AI-based segmentation and classification techniques, this project focuses on enhancing the clarity and precision of medical images. The research leverages state-of-the-art deep learning algorithms to detect subtle anomalies in imaging data, potentially leading to earlier disease detection and better patient outcomes.",
+      "image": "/assets/images/deep-thinking.png",
+      "arxiv": "https://arxiv.org/abs/2345.6789",
+      "webpage": "https://example.com/medical-imaging"
+    },
+    {
+      "id": 6,
+      "title": "OPTIMIZATION STRATEGIES",
+      "categories": [
+        "OPTIMIZATION",
+        "Gradient Descent",
+        "Performance Improvement"
+      ],
+      "date": "December 10, 2021",
+      "description": "Developing efficient gradient-based optimization methods for training deep networks, this project explores innovative strategies to reduce training time and improve model accuracy. By experimenting with novel loss functions and learning rate schedules, the research provides a deeper understanding of the optimization landscape in deep learning.",
+      "image": "/assets/images/deep-thinking.png"
+    },
+    {
+      "id": 7,
+      "title": "IMAGE RESTORATION",
+      "categories": [
+        "IMAGE PROCESSING",
+        "GANs",
+        "Computer Vision"
+      ],
+      "date": "January 15, 2022",
+      "description": "Restoring and enhancing low-resolution images using GANs, this project delves into the capabilities of generative adversarial networks to reconstruct details in degraded images. The study covers various techniques to balance sharpness and authenticity, resulting in images that are both high-quality and visually coherent.",
+      "image": "/assets/images/deep-thinking.png",
+      "github": "https://github.com/username/image-restoration",
+      "twitter": "https://twitter.com/imagrestoration"
+    },
+    {
+      "id": 8,
+      "title": "RECURRENT PATTERNS",
+      "categories": [
+        "RECURRENCE",
+        "Time Series",
+        "Sequential Analysis"
+      ],
+      "date": "January 30, 2022",
+      "description": "Investigating long-term dependencies in time-series data with LSTMs, this research analyzes how recurrent neural networks capture and predict sequential patterns. The findings contribute to improving forecasting models in various fields such as finance, weather prediction, and natural language processing.",
+      "image": "/assets/images/deep-thinking.png",
+      "github": "https://github.com/example/recurrent-patterns",
+      "arxiv": "https://arxiv.org/abs/3456.7890",
+      "webpage": "https://example.com/recurrent-patterns"
+    },
+    {
+      "id": 9,
+      "title": "NATURAL LANGUAGE UNDERSTANDING",
+      "categories": [
+        "NATURAL LANGUAGE PROCESSING",
+        "Transformers",
+        "Text Analytics"
+      ],
+      "date": "February 10, 2022",
+      "description": "Utilizing transformer-based architectures for advanced language understanding and context-aware text generation.",
+      "image": "/assets/images/deep-thinking.png",
+      "twitter": "https://twitter.com/nlp_project"
+    },
+    {
+      "id": 10,
+      "title": "DATA AUGMENTATION TECHNIQUES",
+      "categories": [
+        "DATA AUGMENTATION",
+        "Data Diversity",
+        "Synthetic Data"
+      ],
+      "date": "March 5, 2022",
+      "description": "Exploring various data augmentation strategies to enhance model generalization across diverse datasets.",
+      "image": "/assets/images/deep-thinking.png",
+      "github": "https://github.com/username/data-augmentation",
+      "arxiv": "https://arxiv.org/abs/4567.8901",
+      "webpage": "https://example.com/data-augmentation"
+    },
+    {
+      "id": 11,
+      "title": "I dontknow",
+      "categories": [
+        "Test Category",
+        "Dummy",
+        "Placeholder"
+      ],
+      "date": "March 5, 2021",
+      "description": "Exploring various data augmentation strategies to enhance model generalization across diverse datasets.",
+      "image": "/assets/images/deep-thinking.png",
+      "github": "https://github.com/username/data-augmentation",
+      "arxiv": "https://arxiv.org/abs/4567.8901",
+      "webpage": "https://example.com/data-augmentation"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+    "people": [
+      {
+        "name": "Najja Bohg",
+        "role": "Group leader",
+        "image": "/assets/people/female.jpg",
+        "researchInterests": "Robotic manipulation, computer vision, machine learning",
+        "personalWebsite": "https://example.com/jeannette-bohg"
+      },
+      {
+        "name": "Rika Antonova",
+        "role": "Postdoc",
+        "image": "/assets/people/male.jpg",
+        "researchInterests": "Neural networks, sensorimotor control",
+        "personalWebsite": "https://example.com/rika-antonova"
+      },
+      {
+        "name": "Jeannette Bohg",
+        "role": "Group leader",
+        "image": "/assets/people/female.jpg",
+        "researchInterests": "Robotic manipulation, computer vision, machine learning",
+        "personalWebsite": "https://example.com/jeannette-bohg"
+      },
+      {
+        "name": "Rika Antonova",
+        "role": "Postdoc",
+        "image": "/assets/people/male.jpg",
+        "researchInterests": "Neural networks, sensorimotor control",
+        "personalWebsite": "https://example.com/rika-antonova"
+      },
+      {
+        "name": "Jeannette Bohg",
+        "role": "Group leader",
+        "image": "/assets/people/female.jpg",
+        "researchInterests": "Robotic manipulation, computer vision, machine learning",
+        "personalWebsite": "https://example.com/jeannette-bohg"
+      },
+      {
+        "name": "Rika Antonova",
+        "role": "Postdoc",
+        "image": "/assets/people/male.jpg",
+        "researchInterests": "Neural networks, sensorimotor control",
+        "personalWebsite": "https://example.com/rika-antonova"
+      },
+      {
+        "name": "Jeannette Bohg",
+        "role": "Group leader",
+        "image": "/assets/people/female.jpg",
+        "researchInterests": "Robotic manipulation, computer vision, machine learning",
+        "personalWebsite": "https://example.com/jeannette-bohg"
+      },
+      {
+        "name": "Rika Antonova",
+        "role": "Postdoc",
+        "image": "/assets/people/male.jpg",
+        "researchInterests": "Neural networks, sensorimotor control",
+        "personalWebsite": "https://example.com/rika-antonova"
+      },
+      {
+        "name": "Jeannette Bohg",
+        "role": "Group leader",
+        "image": "/assets/people/female.jpg",
+        "researchInterests": "Robotic manipulation, computer vision, machine learning",
+        "personalWebsite": "https://example.com/jeannette-bohg"
+      },
+      {
+        "name": "Rika Antonova",
+        "role": "Postdoc",
+        "image": "/assets/people/male.jpg",
+        "researchInterests": "Neural networks, sensorimotor control",
+        "personalWebsite": "https://example.com/rika-antonova"
+      },
+      {
+        "name": "Jeannette Bohg",
+        "role": "Group leader",
+        "image": "/assets/people/female.jpg",
+        "researchInterests": "Robotic manipulation, computer vision, machine learning",
+        "personalWebsite": "https://example.com/jeannette-bohg"
+      },
+      {
+        "name": "Rika Antonova",
+        "role": "Postdoc",
+        "image": "/assets/people/male.jpg",
+        "researchInterests": "Neural networks, sensorimotor control",
+        "personalWebsite": "https://example.com/rika-antonova"
+      }
+    ]
+  }

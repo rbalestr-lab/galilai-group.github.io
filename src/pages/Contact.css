@@ -1,0 +1,213 @@
+/* Global Styles for Contact Page */
+.contact-page {
+  font-family: 'Georgia', serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px 120px; /* extra bottom padding so content isn't hidden behind sticky footer */
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+/* Section 1: Google Form Contact Option */
+.contact-google-form {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.contact-google-form h1 {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+.contact-google-form p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-bottom: 30px;
+}
+.google-form-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.google-form-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-3px);
+}
+
+.opportunities-section {
+    padding: 50px 0;
+  }
+
+  .section-header h2 {
+    font-size: 28px; /* Smaller section titles */
+  }
+
+/* Research cards */
+.area-card {
+  margin: 0 15px 30px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.area-card h3 {
+  font-size: 20px;
+}
+
+.area-card p {
+  font-size: 14px;
+}
+
+.btn {
+  padding: 8px 20px; /* Smaller button size */
+  font-size: 14px;
+}
+
+/* Section 3: Location / Google Maps */
+.map-section {
+  margin-bottom: 60px;
+  padding: 20px;
+}
+.map-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+.map-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+.map-container {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  height: 400px;
+}
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.map-details {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  color: #2c3e50;
+  font-family: 'Arial', sans-serif;
+}
+.map-details h3 {
+  font-size: 1.8rem;
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+.map-details p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.map-details button {
+  background: linear-gradient(to right, #e74c3c, #c0392b);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.map-details button:hover {
+  background: linear-gradient(to right, #c0392b, #e74c3c);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(231, 76, 60, 0.3);
+}
+
+/* Developer Watermark Section (as part of page content) */
+/* Developer Watermark Section (as part of page content) */
+.developer-watermark {
+  margin-top: 40px;
+  text-align: center;
+  opacity: 0.7;
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  padding: 10px 0;
+  border-top: 1px solid #e0e0e0;
+}
+.developer-watermark .dev-info {
+  display: block;
+  align-items: center;
+  gap: 5px;  /* Reduced gap between name and icons */
+  justify-content: center;
+
+}
+.developer-watermark .dev-name {
+  display: inline-flex;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #2c3e50;
+}
+.developer-watermark .dev-social {
+  display: inline-flex;
+  gap: 5px;  /* Reduced gap between social icons */
+}
+.developer-watermark .social-icon {
+  color: #7f8c8d;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.developer-watermark .social-icon:hover {
+  transform: scale(1.2);
+  color: #2c3e50;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .map-content {
+    grid-template-columns: 1fr;
+  }
+  .map-container {
+    height: 300px;
+  }
+  .contact-page {
+    padding: 40px 15px 100px; /* ensure enough bottom space */
+  }
+  .contact-google-form h1 {
+    font-size: 2.5rem;
+  }
+  .contact-google-form p {
+    font-size: 1rem;
+  }
+  .google-form-button {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+  .section-header h2 {
+    font-size: 24px;
+  }
+  .area-card h3 {
+    font-size: 1.5rem;
+  }
+  .area-card p, .map-details p {
+    font-size: 0.9rem;
+  }
+  .map-section h2 {
+    font-size: 2rem;
+  }
+  .map-details h3 {
+    font-size: 1.5rem;
+  }
+  .developer-watermark {
+    margin-top: 20px;
+    font-size: 0.75rem;
+  }
+  .developer-watermark .dev-name {
+    font-size: 0.8rem;
+  }
+}
