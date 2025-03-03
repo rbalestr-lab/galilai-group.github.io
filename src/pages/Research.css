@@ -42,7 +42,7 @@ body {
   overflow: hidden;
   box-shadow: var(--soft-shadow);
   transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  border: 1px solid rgba(0, 0, 0, 0.04);* Ensure the card takes up full width */
+  border: 1px solid rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
