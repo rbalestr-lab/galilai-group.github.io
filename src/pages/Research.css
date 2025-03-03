@@ -43,6 +43,7 @@ body {
   box-shadow: var(--soft-shadow);
   transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   border: 1px solid rgba(0, 0, 0, 0.04);
+  width: 100%; /* Ensure the card takes up full width */
 }
 
 .project-image-container {
@@ -259,29 +260,27 @@ body {
 /* --------------------- */
 @media (max-width: 1024px) {
   .research-grid {
-    grid-template-areas:
-      "sidebar"
-      "projects";
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Make sure the grid is full-width */
     gap: 20px;
   }
-  
-  .sidebar {
-    grid-area: sidebar;
-    position: static;
-  }
-  
-  .projects-section {
-    grid-area: projects;
-  }
-  
+
   .project-card {
-    flex-direction: column;
+    flex-direction: column; /* Stack the image and details */
+    width: 100%; /* Ensure the card takes up full width */
   }
-  
+
   .project-image-container,
   .project-details {
-    width: 100%;
+    width: 100%; /* Ensure both sections take full width */
+  }
+
+  .project-image-container {
+    height: auto; /* Allow the image container to be responsive */
+    aspect-ratio: auto; /* Adjust aspect ratio dynamically */
+  }
+
+  .project-details {
+    padding: 15px; /* Adjust padding for smaller screens */
   }
 }
 
@@ -306,6 +305,24 @@ body {
   .search-input {
     font-size: 0.85em;
   }
+
+  .project-card {
+    width: 100%; /* Ensure the card is fully responsive */
+  }
+
+  .project-footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .link-icons {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -313,12 +330,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .footer-right {
     width: 100%;
     justify-content: space-between;
   }
-  
+
   .link-icons {
     margin-bottom: 10px;
   }
@@ -328,12 +345,25 @@ body {
   .project-details {
     padding: 15px;
   }
-  
+
   .categories h3 {
     font-size: 0.9em;
   }
-  
+
   .category-item {
     padding: 8px 0;
+  }
+
+  .research-container {
+    margin: 20px auto;
+    padding: 0 10px;
+  }
+
+  .project-card {
+    margin-bottom: 20px; /* Add some spacing between cards */
+  }
+
+  .sidebar {
+    padding: 20px 10px;
   }
 }
