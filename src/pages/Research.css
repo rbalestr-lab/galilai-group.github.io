@@ -43,7 +43,8 @@ body {
   box-shadow: var(--soft-shadow);
   transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   border: 1px solid rgba(0, 0, 0, 0.04);
-  width: 100%; /* Ensure the card takes up full width */
+  width: 100%; 
+  padding: 15px;/* Ensure the card takes up full width */
 }
 
 .project-image-container {
