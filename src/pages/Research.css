@@ -42,9 +42,7 @@ body {
   overflow: hidden;
   box-shadow: var(--soft-shadow);
   transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  width: 95%; 
-  padding: 15px;/* Ensure the card takes up full width */
+  border: 1px solid rgba(0, 0, 0, 0.04);* Ensure the card takes up full width */
 }
 
 .project-image-container {
@@ -72,7 +70,6 @@ body {
 }
 
 .project-details {
-  width: 60%;
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -266,13 +263,11 @@ body {
   }
 
   .project-card {
-    flex-direction: column; /* Stack the image and details */
-    width: 100%; /* Ensure the card takes up full width */
+    flex-direction: column; 
   }
 
   .project-image-container,
-  .project-details {
-    width: 100%; /* Ensure both sections take full width */
+  .project-details {/* Ensure both sections take full width */
   }
 
   .project-image-container {
@@ -307,8 +302,7 @@ body {
     font-size: 0.85em;
   }
 
-  .project-card {
-    width: 100%; /* Ensure the card is fully responsive */
+  .project-card {/* Ensure the card is fully responsive */
   }
 
   .project-footer {
