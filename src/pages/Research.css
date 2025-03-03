@@ -20,8 +20,6 @@ body {
   max-width: 1300px;
   margin: 100px auto 50px;
   padding: 0 20px;
-  display: flex; /* Flexbox to handle layout */
-  flex-direction: column; /* Stack the search bar and projects vertically */
 }
 
 .research-grid {
@@ -44,6 +42,7 @@ body {
   overflow: hidden;
   box-shadow: var(--soft-shadow);
   transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border: 1px solid rgba(0, 0, 0, 0.04);* Ensure the card takes up full width */
   border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
@@ -179,7 +178,6 @@ body {
   top: 120px;
   transition: box-shadow 0.3s ease;
   max-height: 450px;
-  margin-bottom: 30px; /* Ensure there's space between sidebar and projects */
 }
 
 .search-input {
@@ -260,18 +258,9 @@ body {
 /* Responsive Styles     */
 /* --------------------- */
 @media (max-width: 1024px) {
-  .research-container {
-    flex-direction: column; /* Stack search bar and projects */
-  }
-
   .research-grid {
-    grid-template-columns: 1fr; /* Make the grid single column */
+    grid-template-columns: 1fr; /* Make sure the grid is full-width */
     gap: 20px;
-  }
-
-  /* Ensuring the sidebar always comes first on smaller screens */
-  .sidebar {
-    margin-bottom: 20px; /* Add some space after the sidebar */
   }
 
   .project-card {
@@ -279,8 +268,7 @@ body {
   }
 
   .project-image-container,
-  .project-details {
-    width: 100%; /* Ensure both sections take full width */
+  .project-details {/* Ensure both sections take full width */
   }
 
   .project-image-container {
@@ -313,6 +301,9 @@ body {
   .category-item,
   .search-input {
     font-size: 0.85em;
+  }
+
+  .project-card {/* Ensure the card is fully responsive */
   }
 
   .project-footer {
