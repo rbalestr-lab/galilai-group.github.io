@@ -24,7 +24,7 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding-horizontal: 10px;
+  width: 90%;
   margin: 0 auto;
 }
 

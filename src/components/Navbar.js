@@ -13,14 +13,15 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="navbar-brand">
+        {/* Entire brand (logo + title) is now clickable */}
+        <Link to="/" className="navbar-brand" onClick={toggleMenu}>
           <img
             src="/assets/logos/brown-logo.png"
             alt="Borton Lab Logo"
             className="navbar-logo"
           />
           <span className="brand-title">Balestriero Lab</span>
-        </div>
+        </Link>
 
         {/* Mobile Menu Icon */}
         <div className="menu-icon" onClick={toggleMenu}>
@@ -29,10 +30,21 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <li><Link to="/" className="nav-link" onClick={toggleMenu}>Home</Link></li>
-          <li><Link to="/research" className="nav-link" onClick={toggleMenu}>Research</Link></li>
-          <li><Link to="/group" className="nav-link" onClick={toggleMenu}>Groups</Link></li>
-          <li><Link to="/contact" className="nav-link" onClick={toggleMenu}>Contact</Link></li>
+          <li>
+            <Link to="/research" className="nav-link" onClick={toggleMenu}>
+              Research
+            </Link>
+          </li>
+          <li>
+            <Link to="/group" className="nav-link" onClick={toggleMenu}>
+              Groups
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="nav-link" onClick={toggleMenu}>
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

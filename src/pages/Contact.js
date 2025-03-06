@@ -17,15 +17,15 @@ const Contact = () => {
 
   const [homeData, setHomeData] = useState(null);
   useEffect(() => {
-      fetch('/data/homeData.json')
-        .then(response => response.json())
-        .then(data => setHomeData(data))
-        .catch(error => console.error('Error fetching home data:', error));
-    }, []);
-  
-    if (!homeData) {
-      return <div className="loading">Loading...</div>;
-    }
+    fetch('/data/homeData.json')
+      .then(response => response.json())
+      .then(data => setHomeData(data))
+      .catch(error => console.error('Error fetching home data:', error));
+  }, []);
+
+  if (!homeData) {
+    return <div className="loading">Loading...</div>;
+  }
 
   return (
     <div className="contact-page">
@@ -36,8 +36,8 @@ const Contact = () => {
           We’d love to hear from you! Use our online form to send us your questions or comments, and we’ll get back to you ASAP.
         </p>
         <a
-          href="https://forms.gle/example" 
-          target="_blank" 
+          href="https://forms.gle/example"
+          target="_blank"
           rel="noopener noreferrer"
           className="google-form-button"
         >
@@ -47,23 +47,23 @@ const Contact = () => {
 
       {/* Section 2: Research Opportunities */}
       <section className="opportunities-section">
-              <div className="section-header">
-                <Briefcase size={40} className="section-icon" />
-                <h2>{homeData.opportunities.sectionTitle}</h2>
+        <div className="section-header">
+          <Briefcase size={40} className="section-icon" />
+          <h2>{homeData.opportunities.sectionTitle}</h2>
+        </div>
+        <div className="opportunities-content">
+          <div className="research-areas">
+            {homeData.opportunities.areas.map((area, index) => (
+              <div key={index} className="area-card">
+                <Microscope size={30} />
+                <h3>{area.title}</h3>
+                <p>{area.description}</p>
+                <a href={area.link} className="btn">{area.linkText}</a>
               </div>
-              <div className="opportunities-content">
-                <div className="research-areas">
-                  {homeData.opportunities.areas.map((area, index) => (
-                    <div key={index} className="area-card">
-                      <Microscope size={30} />
-                      <h3>{area.title}</h3>
-                      <p>{area.description}</p>
-                      <a href={area.link} className="btn">{area.linkText}</a>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </section>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Section 3: Location / Google Maps */}
       <section className="map-section">
@@ -77,12 +77,12 @@ const Contact = () => {
               allowFullScreen=""
               aria-hidden="false"
               tabIndex="0"
-              ></iframe>
+            ></iframe>
           </div>
           <div className="map-details">
             <h3>Visit Us</h3>
             <p>
-            453 CIT, 115 Waterman St, Providence, RI 02906<br />
+              453 CIT, 115 Waterman St, Providence, RI 02906<br />
               Phone: +1 (555) 123-4567<br />
               Email: contact@example.com
             </p>
@@ -98,64 +98,99 @@ const Contact = () => {
 
       <div className="developer-watermark">
         <p className="dev-title">Meet Our Developers</p>
-        <div className="dev-info">
-          <span className="dev-name">Priyank Sutaria</span>
-          <div className="dev-social">
-          <a
-            href="https://twitter.com"
-            className="social-icon"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <XIcon />
-          </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <Linkedin size={16} />
-            </a>
-            <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <Github size={16} />
-            </a>
+        <div className="dev-info-container">
+          <div className="dev-info">
+            <span className="dev-name">Priyank Sutaria</span>
+            <div className="dev-social">
+              <a
+                href="https://twitter.com"
+                className="social-icon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <XIcon />
+              </a>
+              <a
+                href="https://linkedin.com/in/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Linkedin size={16} />
+              </a>
+              <a
+                href="https://github.com/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Github size={16} />
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="dev-info">
-          <span className="dev-name">Deepika Muchhala</span>
-          <div className="dev-social">
-          <a
-            href="https://twitter.com"
-            className="social-icon"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <XIcon />
-          </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <Linkedin size={16} />
-            </a>
-            <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <Github size={16} />
-            </a>
+
+          <div className="dev-info">
+            <span className="dev-name">Deepika Muchhala</span>
+            <div className="dev-social">
+              <a
+                href="https://twitter.com"
+                className="social-icon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <XIcon />
+              </a>
+              <a
+                href="https://linkedin.com/in/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Linkedin size={16} />
+              </a>
+              <a
+                href="https://github.com/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Github size={16} />
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="dev-info">
-          <span className="dev-name">Dhruv Gada</span>
-          <div className="dev-social">
-          <a
-            href="https://twitter.com"
-            className="social-icon"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <XIcon />
-          </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <Linkedin size={16} />
-            </a>
-            <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" className="social-icon">
-              <Github size={16} />
-            </a>
+
+          <div className="dev-info">
+            <span className="dev-name">Dhruv Gada</span>
+            <div className="dev-social">
+              <a
+                href="https://twitter.com"
+                className="social-icon"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <XIcon />
+              </a>
+              <a
+                href="https://linkedin.com/in/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Linkedin size={16} />
+              </a>
+              <a
+                href="https://github.com/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Github size={16} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
+
     </div>
   );
 };

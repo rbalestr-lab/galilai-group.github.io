@@ -39,12 +39,12 @@
 }
 
 .opportunities-section {
-    padding: 50px 0;
-  }
+  padding: 50px 0;
+}
 
-  .section-header h2 {
-    font-size: 28px; /* Smaller section titles */
-  }
+.section-header h2 {
+  font-size: 28px; /* Smaller section titles */
+}
 
 /* Research cards */
 .area-card {
@@ -52,15 +52,12 @@
   margin-bottom: 50px;
   padding: 20px;
 }
-
 .area-card h3 {
   font-size: 20px;
 }
-
 .area-card p {
   font-size: 14px;
 }
-
 .btn {
   padding: 8px 20px; /* Smaller button size */
   font-size: 14px;
@@ -129,8 +126,7 @@
   box-shadow: 0 8px 20px rgba(231, 76, 60, 0.3);
 }
 
-/* Developer Watermark Section (as part of page content) */
-/* Developer Watermark Section (as part of page content) */
+/* Developer Watermark Section */
 .developer-watermark {
   margin-top: 40px;
   text-align: center;
@@ -140,13 +136,28 @@
   padding: 10px 0;
   border-top: 1px solid #e0e0e0;
 }
-.developer-watermark .dev-info {
-  display: block;
-  align-items: center;
-  gap: 5px;  /* Reduced gap between name and icons */
-  justify-content: center;
 
+/* Container for developer info blocks */
+.dev-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
+
+/* Each developer block */
+.dev-info {
+  display: flex;
+  align-items:last baseline;
+}
+
+/* Vertical bar separator between dev blocks (except the last) */
+.dev-info:not(:last-child)::after {
+  content: " | ";
+  margin-left: 20px;
+  color: #7f8c8d;
+}
+
 .developer-watermark .dev-name {
   display: inline-flex;
   font-weight: bold;
@@ -154,8 +165,7 @@
   color: #2c3e50;
 }
 .developer-watermark .dev-social {
-  display: inline-flex;
-  gap: 5px;  /* Reduced gap between social icons */
+  display: inline-flex; /* Reduced gap between social icons */
 }
 .developer-watermark .social-icon {
   color: #7f8c8d;
@@ -165,7 +175,6 @@
   transform: scale(1.2);
   color: #2c3e50;
 }
-
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -194,7 +203,8 @@
   .area-card h3 {
     font-size: 1.5rem;
   }
-  .area-card p, .map-details p {
+  .area-card p,
+  .map-details p {
     font-size: 0.9rem;
   }
   .map-section h2 {
@@ -209,5 +219,14 @@
   }
   .developer-watermark .dev-name {
     font-size: 0.8rem;
+  }
+  /* Stack developer info blocks on mobile */
+  .dev-info-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .dev-info:not(:last-child)::after {
+    content: "";
+    margin: 0;
   }
 }

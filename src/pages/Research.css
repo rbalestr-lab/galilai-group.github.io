@@ -280,6 +280,10 @@ body {
   .project-details {
     padding: 15px; /* Adjust padding for smaller screens */
   }
+
+  .sidebar {
+    order: -1; /* Sidebar appears before the projects section */
+  }
 }
 
 @media (max-width: 768px) {
@@ -307,6 +311,8 @@ body {
   .project-card {/* Ensure the card is fully responsive */
   }
 
+  
+
   .project-footer {
     flex-direction: column;
     align-items: flex-start;
@@ -319,6 +325,11 @@ body {
 
   .link-icons {
     margin-bottom: 10px;
+  }
+
+  .sidebar {
+    order: -1;/* Sidebar appears before the projects section */
+    margin-bottom: 40px;
   }
 }
 
@@ -335,6 +346,11 @@ body {
 
   .link-icons {
     margin-bottom: 10px;
+  }
+
+  .sidebar {
+    order: -1;/* Sidebar appears before the projects section */
+    margin-bottom: 40px;
   }
 }
 
@@ -362,5 +378,9 @@ body {
 
   .sidebar {
     padding: 20px 10px;
+    order: -1;
+    margin-bottom: 100px;
   }
+
+
 }

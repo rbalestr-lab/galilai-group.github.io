@@ -24,8 +24,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
-  padding: 0 2rem;
+  padding: 0.5rem 2rem;
 }
 
 .navbar-brand {
@@ -34,6 +33,12 @@
   gap: 1rem;
   text-decoration: none;
   flex: 0 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-logo {
