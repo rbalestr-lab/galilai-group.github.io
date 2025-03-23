@@ -134,6 +134,7 @@ const Group = ({ people }) => {
   // Define categories for grouping people
   const categories = [
     { title: "Professor", key: "Professor" },
+    { title: "Visiting Researcher", key: "Visiting Researcher" },
     { title: "Postdocs", key: "Postdoc" },
     { title: "PhDs", key: "PhD" },
     { title: "Masters and Undergrads", key: "Masters & Undergrads" },
