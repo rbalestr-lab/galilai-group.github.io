@@ -3,6 +3,7 @@
       {
         "name": "Randall Balestriero",
         "role": "Assistant Professor of Computer Science",
+        "role_title":"Assistant Professor of Computer Science",
         "image": "/assets/people/rbalestr_photo.jpg",
         "researchInterests": "Self Supervised Learning, computer vision, machine learning",
         "personalWebsite": "https://randallbalestriero.github.io"
@@ -11,6 +12,16 @@
       {
         "name": "Leyang Hu",
         "role": "Incoming PhD",
+        "role_title": "Incoming PhD",
+        "image": "/assets/people/微信图片_20250310161241.jpg",
+        "researchInterests": "Deep Learning Theory, SSL",
+        "personalWebsite": "https://scholar.google.com/citations?user=_pVM1y4AAAAJ&hl=en"
+      },
+
+      {
+        "name": "Leyang Hu",
+        "role": "Incoming PhD",
+        "role_title": "Incoming PhD",
         "image": "/assets/people/微信图片_20250310161241.jpg",
         "researchInterests": "Deep Learning Theory, SSL",
         "personalWebsite": "https://scholar.google.com/citations?user=_pVM1y4AAAAJ&hl=en"
@@ -18,6 +29,7 @@
       {
         "name": "Leyang Hu",
         "role": "Incoming PhD",
+        "role_title": "Incoming PhD",
         "image": "/assets/people/微信图片_20250310161241.jpg",
         "researchInterests": "Deep Learning Theory, SSL",
         "personalWebsite": "https://scholar.google.com/citations?user=_pVM1y4AAAAJ&hl=en"
@@ -67,11 +79,12 @@
         "personalWebsite": "https://example.com/jeannette-bohg"
       },
       {
-        "name": "Rika Antonova",
-        "role": "Postdoc",
-        "image": "/assets/people/male.jpg",
-        "researchInterests": "Neural networks, sensorimotor control",
-        "personalWebsite": "https://example.com/rika-antonova"
+        "name": "Marcel Mateos Salles",
+        "role": "Masters & Undergrads",
+        "role_title":"Undergrad Researcher",
+        "image": "/assets/people/Marcel.jpeg",
+        "researchInterests": "Language Models, Interpretability of Models,Self Supervised Learning",
+        "personalWebsite": "https://www.linkedin.com/in/marcelmatsal/"
       }
     ]
   }
