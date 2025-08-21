@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
         <div className="footer-social">
         <a
-            href="https://twitter.com"
+            href="https://twitter.com/randall_balestr"
             className="social-icon"
             target="_blank"
             rel="noopener noreferrer"
@@ -32,7 +32,7 @@ const Footer = () => {
             <XIcon />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/randallbalestriero/"
             className="social-icon"
             target="_blank"
             rel="noopener noreferrer"
@@ -40,7 +40,7 @@ const Footer = () => {
             <Linkedin size={20} />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/rbalestr-lab"
             className="social-icon"
             target="_blank"
             rel="noopener noreferrer"

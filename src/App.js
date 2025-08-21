@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Research from './pages/Research';
+import Publications from './pages/Publications';
+import News from './pages/News';
 import Contact from './pages/Contact';
 import './App.css';
 import Group from './pages/Group';
@@ -37,8 +39,10 @@ const App = () => {
         <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/research" element={<Research />} />
+          <Route path="/research" element={<Research />}></Route>
+          <Route path="/publications" element={<Publications />} />
           <Route path="/group" element={<Group people={people} />} />
+          <Route path="/news" element={<News />}></Route>
           <Route path="/contact" element={<Contact />} />
         </Routes>
         </main>

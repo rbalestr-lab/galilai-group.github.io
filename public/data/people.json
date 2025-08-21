@@ -34,6 +34,14 @@
         "researchInterests": "Neural networks, sensorimotor control",
         "personalWebsite": "https://example.com/rika-antonova"
       },
+      {
+        "name": "Wenquan Lu ",
+        "role": "Masters & Undergrads",
+        "role_title": "Master's Researcher '26",
+        "image": "/assets/people/wenquan_lu.jpeg",
+        "researchInterests": "Reasoning, Representation Learning, Long-Context/Continual learning",
+        "personalWebsite": "https://wenquanlu.github.io/"
+      },
 
       {
         "name": "Marcel Mateos Salles",

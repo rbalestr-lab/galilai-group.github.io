@@ -31,13 +31,23 @@ const Navbar = () => {
         {/* Navigation Links */}
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <li>
-            <Link to="/research" className="nav-link" onClick={toggleMenu}>
+            <Link to="/research" className='nav-link' onClick={toggleMenu}>
               Research
+            </Link>
+          </li>
+          <li>
+            <Link to="/publications" className="nav-link" onClick={toggleMenu}>
+              Publications
             </Link>
           </li>
           <li>
             <Link to="/group" className="nav-link" onClick={toggleMenu}>
               Group
+            </Link>
+          </li>
+          <li>
+            <Link to="/news" className='nav-link' onClick={toggleMenu}>
+              News
             </Link>
           </li>
           <li>

@@ -7,13 +7,12 @@
 }
 
 .page-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0; /* Added to ensure full-width without using width: 100% */
+  /* bottom: 0;
+  left: 0; */
+  /* right: 0; Added to ensure full-width without using width: 100% */
   background: var(--dark-bg);
   color: var(--text-light);
-  z-index: 1000;
+  /* z-index: 1000; */
   /* Reduced padding for a thinner footer */
   padding: 10px 20px;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5), inset 0 2px 4px rgba(255, 255, 255, 0.05);
