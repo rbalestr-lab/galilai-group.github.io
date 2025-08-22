@@ -60,6 +60,14 @@
         "personalWebsite": ""
       },
       {
+        "name": "Ian Hajra",
+        "role": "Masters & Undergrads",
+        "role_title": "Undergrad Researcher '26",
+        "image": "/assets/people/ian_hajra.jpeg",
+        "researchInterests": "SSL, Security, Mathematical Finance",
+        "personalWebsite": "https://github.com/ianhajra"
+      },
+      {
         "name": "Nick Masi",
         "role": "alumni",
         "role_title": "Sc.M., Sc.B. Computer Science '25",

@@ -87,7 +87,7 @@ const Contact = () => {
               Email: contact@example.com
             </p>
             <p>
-              Our office is in the heart of the city—easily accessible by public transit and with ample parking.
+              Our office is in the heart of Brown University's campus, easily accessible by public transit and with ample parking.
             </p>
             <button onClick={() => window.open('https://www.google.com/maps/place/Department+of+Computer+Science/@41.826953,-71.3995786,17z/data=!3m1!4b1!4m6!3m5!1s0x89e4453b5275469d:0xc48a812b6cfb273!8m2!3d41.826953!4d-71.3995786!16s%2Fg%2F1hhwdn5zz?entry=ttu&g_ep=EgoyMDI1MDIyNS4wIKXMDSoASAFQAw%3D%3D&hl=en', '_blank')}>
               Open in Google Maps
@@ -100,7 +100,7 @@ const Contact = () => {
         <p className="dev-title">Meet Our Developers</p>
         <div className="dev-info-container">
           <div className="dev-info">
-            <span className="dev-name"></span>
+            <span className="dev-name">Kyle Lam</span>
             <div className="dev-social">
               <a
                 href="https://twitter.com"
@@ -129,65 +129,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="dev-info">
-            <span className="dev-name"></span>
-            <div className="dev-social">
-              <a
-                href="https://twitter.com"
-                className="social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <XIcon />
-              </a>
-              <a
-                href="https://linkedin.com/in/yourprofile"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon"
-              >
-                <Linkedin size={16} />
-              </a>
-              <a
-                href="https://github.com/yourprofile"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon"
-              >
-                <Github size={16} />
-              </a>
-            </div>
-          </div>
-
-          <div className="dev-info">
-            <span className="dev-name"></span>
-            <div className="dev-social">
-              <a
-                href="https://twitter.com"
-                className="social-icon"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <XIcon />
-              </a>
-              <a
-                href="https://linkedin.com/in/yourprofile"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon"
-              >
-                <Linkedin size={16} />
-              </a>
-              <a
-                href="https://github.com/yourprofile"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-icon"
-              >
-                <Github size={16} />
-              </a>
-            </div>
-          </div>
+          
         </div>
       </div>
 
