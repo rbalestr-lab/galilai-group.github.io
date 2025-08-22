@@ -5,7 +5,7 @@
         "role": "pi",
         "role_title":"Assistant Professor of Computer Science",
         "image": "/assets/people/rbalestr_photo.jpg",
-        "researchInterests": "Self Supervised Learning, computer vision, machine learning",
+        "researchInterests": "Self Supervised Learning, Computer Vision, Machine Learning",
         "personalWebsite": "https://randallbalestriero.github.io"
       },
 
@@ -31,7 +31,7 @@
         "name": "Rika Antonova",
         "role": "postdoc",
         "image": "/assets/people/male.jpg",
-        "researchInterests": "Neural networks, sensorimotor control",
+        "researchInterests": "Neural Networks, Sensorimotor Control",
         "personalWebsite": "https://example.com/rika-antonova"
       },
       {
