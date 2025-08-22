@@ -100,7 +100,7 @@ const Contact = () => {
         <p className="dev-title">Meet Our Developers</p>
         <div className="dev-info-container">
           <div className="dev-info">
-            <span className="dev-name">Priyank Sutaria</span>
+            <span className="dev-name"></span>
             <div className="dev-social">
               <a
                 href="https://twitter.com"
@@ -130,7 +130,7 @@ const Contact = () => {
           </div>
 
           <div className="dev-info">
-            <span className="dev-name">Deepika Muchhala</span>
+            <span className="dev-name"></span>
             <div className="dev-social">
               <a
                 href="https://twitter.com"
@@ -160,7 +160,7 @@ const Contact = () => {
           </div>
 
           <div className="dev-info">
-            <span className="dev-name">Dhruv Gada</span>
+            <span className="dev-name"></span>
             <div className="dev-social">
               <a
                 href="https://twitter.com"

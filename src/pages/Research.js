@@ -10,7 +10,7 @@ const Research = () => {
                     why and how these methods succeed. Our work bridges rigorous theory with practical algorithms, \
                     enabling scalable AI systems that learn from raw, unlabeled data and drive advances in vision, \
                     speech, and multimodal applications.",
-      "image": "",
+      "image": "/assets/images/ssl-overview.png",
     },
     {
       "title": "Large Language Models",
@@ -18,7 +18,7 @@ const Research = () => {
                       training dynamics, emergent behaviors, and adaptability across tasks. By combining theoretical \
                       insights with practical evaluation, our research seeks to improve the efficiency, reliability, \
                       and interpretability of these models in real-world deployments.",
-      "image": "",
+      "image": "/assets/images/transformer-architecture.png",
     }
   ]
   
@@ -27,7 +27,7 @@ const Research = () => {
       <h1 className="research-header">Current Research</h1>
       <div className="research-projects">
         {projects.map(project => (
-          <div className="research-topic-container">
+          <div key={project.title} className="research-topic-container">
             <div className='research-project-content'>
               <h2>{project.title}</h2>
               <p>{project.description}</p>
