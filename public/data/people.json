@@ -82,6 +82,15 @@
         "image": "/assets/people/kyle_lam.jpg",
         "researchInterests": "Representation Learning, Computer Vision, AI for science, High Performance Computing",
         "personalWebsite": "https://www.kylelam.dev/"
+      },
+      {
+        "name": "Chia-Hong HSU",
+        "role": "alumni",
+        "role_title": "Sc.M. Computer Science '25",
+        "now": "PhD student @ University of British Columbia",
+        "image": "/assets/people/chia_hong_hsu.jpg",
+        "researchInterests": "Diffusion Models, Consistency Models, Continual Learning, Training Curriculum",
+        "personalWebsite": "https://swimmincatt35.github.io"
       }
     ]
   }

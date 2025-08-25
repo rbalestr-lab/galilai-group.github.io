@@ -105,6 +105,7 @@ const Group = ({ people }) => {
                   <div className="person-details">
                     <h3>{person.name}</h3>
                     <p className="role">{person.role_title}</p>
+                    <p className='role'>{person.now}</p>
                     <p className="research-interests">{person.researchInterests}</p>
                   </div>
                 </div>

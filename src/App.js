@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Research from './pages/Research';
 import Publications from './pages/Publications';
 import News from './pages/News';
+import Events from './pages/Events';
+import Teaching from './pages/Teaching';
 import Contact from './pages/Contact';
 import './App.css';
 import Group from './pages/Group';
@@ -39,10 +41,12 @@ const App = () => {
         <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/research" element={<Research />}></Route>
+          <Route path="/research" element={<Research />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/group" element={<Group people={people} />} />
-          <Route path="/news" element={<News />}></Route>
+          <Route path="/news" element={<News />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/teaching" element={<Teaching />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         </main>

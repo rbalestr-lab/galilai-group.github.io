@@ -64,7 +64,7 @@
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 1.75rem;
   list-style: none;
   margin: 0;
   margin-left: auto;
@@ -79,7 +79,7 @@
 .nav-link {
   color: var(--secondary-color);
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   padding: 0.5rem 0;
   position: relative;
@@ -173,7 +173,7 @@
     width: 100%;
     background: var(--glass-bg);
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.25rem;
     padding: 1rem 0;
     text-align: center;
     transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;

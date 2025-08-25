@@ -51,6 +51,16 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <Link to="/events" className='nav-link' onClick={toggleMenu}>
+              Events
+            </Link>
+          </li>
+          <li>
+            <Link to="/teaching" className='nav-link' onClick={toggleMenu}>
+              Teaching
+            </Link>
+          </li>
+          <li>
             <Link to="/contact" className="nav-link" onClick={toggleMenu}>
               Contact
             </Link>
