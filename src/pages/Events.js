@@ -30,15 +30,15 @@ const Events = () => {
       <h1 className='events-header'>Events</h1>
 
       <div className='events-grid'>
-        {/* <div className='events-tabs'>
+        <div className='events-tabs'>
           <button onClick={() => setActiveTab('upcoming')}>
             Upcoming
           </button>
           <button onClick={() => setActiveTab('previous')}>
             Previous
           </button>
-        </div> */}
-        <h2>Coming soon!</h2>
+        </div>
+        {/* <h2>Coming soon!</h2> */}
       </div>
     </div>
   )

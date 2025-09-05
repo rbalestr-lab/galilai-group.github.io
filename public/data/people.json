@@ -35,6 +35,14 @@
         "researchInterests": "Reasoning, Representation Learning, Long-Context/Continual learning",
         "personalWebsite": "https://wenquanlu.github.io/"
       },
+      {
+        "name": "Jiaqi Zhang",
+        "role": "Masters & Undergrads",
+        "role_title": "Master's Researcher '26",
+        "image": "/assets/people/jiaqi_zhang.jpg",
+        "researchInterests": "Computer Vision, Vision Foundation Model, Model Robustness, Representation Learning, Neuro-inspired Neural Network",
+        "personalWebsite": "https://www.linkedin.com/in/jiaqi-zhang-491746221/"
+      },
 
       {
         "name": "Marcel Mateos Salles",
@@ -84,6 +92,15 @@
         "image": "/assets/people/chia_hong_hsu.jpg",
         "researchInterests": "Diffusion Models, Consistency Models, Continual Learning, Training Curriculum",
         "personalWebsite": "https://swimmincatt35.github.io"
+      },
+      {
+        "name": "Pradyut Sekhsaria",
+        "role": "alumni",
+        "role_title": "Sc.M. Computer Science '25",
+        "now": "Software Engineer @ TIFIN",
+        "image": "/assets/people/placeholder_person.png",
+        "researchInterests": "Language models, Machine Learning",
+        "personalWebsite": "https://www.linkedin.com/in/pradyut-sekhsaria/"
       }
     ]
   }
