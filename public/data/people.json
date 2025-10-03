@@ -43,6 +43,14 @@
         "researchInterests": "Computer Vision, Vision Foundation Model, Model Robustness, Representation Learning, Neuro-inspired Neural Network",
         "personalWebsite": "https://www.linkedin.com/in/jiaqi-zhang-491746221/"
       },
+      {
+        "name": "Heejeong Nam",
+        "role": "Masters & Undergrads",
+        "role_title": "Master's Researcher '27",
+        "image": "/assets/people/heejeong_nam.jpg",
+        "researchInterests": "Disentangled/Causal Representation Learning",
+        "personalWebsite": "https://hazel-heejeong-nam.github.io/"
+      },
 
       {
         "name": "Marcel Mateos Salles",
@@ -80,6 +88,7 @@
         "name": "Kyle Lam",
         "role": "alumni",
         "role_title": "Sc.B. Computer Science, Honors; Sc.B. Biochemistry '25",
+        "now": "Software Engineer @ Koddi",
         "image": "/assets/people/kyle_lam.jpg",
         "researchInterests": "Representation Learning, Computer Vision, AI for science, High Performance Computing",
         "personalWebsite": "https://www.kylelam.dev/"
