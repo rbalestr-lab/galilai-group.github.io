@@ -127,6 +127,15 @@
       },
 
       {
+        "name": "Lucas Maes",
+        "role":"visiting-researcher",
+        "role_title": "PhD Student @ Mila",
+        "image": "/assets/people/lucas_maes.jpg",
+        "researchInterests": "",
+        "personalWebsite": "https://lucasmaes.bearblog.dev/"
+      },
+
+      {
         "name": "Pranav Sankar",
         "role": "Masters & Undergrads",
         "role_title": "Master's Researcher '27",
