@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Opportunities.css';
 import { Link, useLocation } from 'react-router-dom';
 import { Twitter, Linkedin, Github } from 'lucide-react';
+import { withPublicUrl } from '../utils/publicUrl';
 
 const XIcon = () => (
   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,7 +20,7 @@ const Opportunities = () => {
   const [opportunitiesData, setOpportunitiesData] = useState(null);
 
   useEffect(() => {
-    fetch('/data/opportunities.json')
+    fetch(withPublicUrl('/data/opportunities.json'))
       .then(response => response.json())
       .then(data => setOpportunitiesData(data))
       .catch(error => console.error('Error fetching opportunities data:', error));

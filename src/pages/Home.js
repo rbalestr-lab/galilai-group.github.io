@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import './Home.css';
 import './News.css';
 import { Users, DollarSign } from 'lucide-react';
+import { withPublicUrl } from '../utils/publicUrl';
 
 const Home = () => {
   const newsRef = useRef(null);
@@ -19,13 +20,13 @@ const Home = () => {
 
   useEffect(() => {
     // Fetch news data
-    fetch('/data/news.json')
+    fetch(withPublicUrl('/data/news.json'))
       .then(response => response.json())
       .then(data => setNewsData(data))
       .catch(error => console.error('Error fetching news data:', error));
     
     // Fetch opportunities data
-    fetch('/data/opportunities.json')
+    fetch(withPublicUrl('/data/opportunities.json'))
       .then(response => response.json())
       .then(data => setOpportunitiesData(data))
       .catch(error => console.error('Error fetching opportunities data:', error));
@@ -86,7 +87,7 @@ const Home = () => {
             playsInline
             aria-label="Galilai Group video"
           >
-            <source src="/assets/videos/homepage.mp4" type="video/mp4" />
+            <source src={withPublicUrl('/assets/videos/homepage.mp4')} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

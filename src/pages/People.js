@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import './People.css';
+import { withPublicUrl } from '../utils/publicUrl';
 
 const People = ({ people }) => {
   const [clickedCard, setClickedCard] = useState(null);
@@ -45,12 +46,12 @@ const People = ({ people }) => {
               }}
             >
               <div className="person-image-circle">
-                <img src={randallPerson.image} alt={randallPerson.name} />
+                <img src={withPublicUrl(randallPerson.image)} alt={randallPerson.name} />
               </div>
             </a>
           ) : (
             <div className="person-image-circle">
-              <img src={randallPerson.image} alt={randallPerson.name} />
+              <img src={withPublicUrl(randallPerson.image)} alt={randallPerson.name} />
             </div>
           )}
           <div className="person-details">
@@ -118,12 +119,12 @@ const People = ({ people }) => {
                         }}
                       >
                         <div className="person-image-circle">
-                          <img src={person.image} alt={person.name} />
+                          <img src={withPublicUrl(person.image)} alt={person.name} />
                         </div>
                       </a>
                     ) : (
                       <div className="person-image-circle">
-                        <img src={person.image} alt={person.name} />
+                        <img src={withPublicUrl(person.image)} alt={person.name} />
                       </div>
                     )}
                     <div className="person-details">

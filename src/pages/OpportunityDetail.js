@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import './OpportunityDetail.css';
+import { withPublicUrl } from '../utils/publicUrl';
 
 const OpportunityDetail = () => {
   const { id } = useParams();
@@ -12,7 +13,7 @@ const OpportunityDetail = () => {
   const fromHome = location.state?.from === 'home';
 
   useEffect(() => {
-    fetch('/data/opportunities.json')
+    fetch(withPublicUrl('/data/opportunities.json'))
       .then(res => res.json())
       .then(data => {
         const item = data.items.find(entry => entry.id === id);

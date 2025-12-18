@@ -1,13 +1,14 @@
 import React, {useEffect, useState} from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './News.css';
+import { withPublicUrl } from '../utils/publicUrl';
 
 const News = () => {
   const location = useLocation();
   const [posts, setPosts] = useState(null);
 
   useEffect(() => {
-    fetch('/data/news.json')
+    fetch(withPublicUrl('/data/news.json'))
       .then(res => res.json())
       .then(setPosts)
       .catch(e => console.log(e));
@@ -44,7 +45,7 @@ const News = () => {
                     to={`/news/${post.id}`}
                     onClick={handleLinkClick}
             className={`news-card ${post.thumbnail_image ? 'news-card-with-image' : ''}`}
-            style={post.thumbnail_image ? { backgroundImage: `url(${post.thumbnail_image})` } : {}}
+            style={post.thumbnail_image ? { backgroundImage: `url(${withPublicUrl(post.thumbnail_image)})` } : {}}
           >
             <div className="news-card-content">
               <h2 className="news-card-title">{post.title}</h2>

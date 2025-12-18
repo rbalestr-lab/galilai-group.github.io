@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import './Publications.css';
+import { withPublicUrl } from '../utils/publicUrl';
 
 const ProjectCard = ({ project }) => {
   const categories = project.categories || (project.category ? [project.category] : []);
@@ -23,12 +24,12 @@ const ProjectCard = ({ project }) => {
       <div className="publication-image-container">
         {project.image ? (
           <img
-            src={project.image}
+            src={withPublicUrl(project.image)}
             alt={project.title}
             className={`publication-image ${isGif ? 'publication-image-gif' : ''}`}
             onError={(e) => {
               e.target.onerror = null;
-              e.target.src = '/assets/images/fallback_image.png';
+              e.target.src = withPublicUrl('/assets/images/fallback_image.png');
             }}
           />
         ) : null}
@@ -89,7 +90,7 @@ const Publications = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
 
   useEffect(() => {
-    fetch('/data/publications.json')
+    fetch(withPublicUrl('/data/publications.json'))
       .then((response) => response.json())
       .then(setData)
       .catch(console.error);

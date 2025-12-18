@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Projects.css';
 import { Github } from 'lucide-react';
+import { withPublicUrl } from '../utils/publicUrl';
 
 const WebsiteIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +17,7 @@ const Projects = () => {
   const [projects, setProjects] = useState(null);
 
   useEffect(() => {
-    fetch('/data/projects.json')
+    fetch(withPublicUrl('/data/projects.json'))
       .then(res => res.json())
       .then(setProjects)
       .catch(e => console.log(e));
@@ -31,7 +32,7 @@ const Projects = () => {
           <div
             key={index}
             className={`project-card ${project.thumbnail_image ? 'project-card-with-image' : ''}`}
-            style={project.thumbnail_image ? { backgroundImage: `url(${project.thumbnail_image})` } : {}}
+            style={project.thumbnail_image ? { backgroundImage: `url(${withPublicUrl(project.thumbnail_image)})` } : {}}
           >
             <div className="project-card-content">
               <h2 className="project-card-title">{project.title}</h2>

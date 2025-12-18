@@ -4,19 +4,34 @@
     <meta charset="utf-8" />
     <meta name="google-site-verification" content="OwYi8_ncHoW8vSQlZHabSmKXJKIcKX-Br14ImG32-0g" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
-    <link rel="icon" type="image/svg+xml" sizes="any" href="assets/logos/lab-logo.svg" />
+    <link rel="icon" type="image/svg+xml" sizes="any" href="%PUBLIC_URL%/assets/logos/lab-logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="assets/logos/lab-logo.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/assets/logos/lab-logo.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- GitHub Pages SPA routing support (keeps deep links working) -->
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search && l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            })
+            .join('?');
+          window.history.replaceState(null, null, l.pathname.replace(/\/$/, '') + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.

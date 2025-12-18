@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import './NewsDetail.css';
+import { withPublicUrl } from '../utils/publicUrl';
 
 const NewsDetail = () => {
   const { id } = useParams();
@@ -12,7 +13,7 @@ const NewsDetail = () => {
   const fromHome = location.state?.from === 'home';
 
   useEffect(() => {
-    fetch('/data/news.json')
+    fetch(withPublicUrl('/data/news.json'))
       .then(res => res.json())
       .then(data => {
         const item = data.news.find(news => news.id === id);
@@ -73,7 +74,7 @@ const NewsDetail = () => {
 
         {newsItem.image && (
           <div className="news-detail-image">
-            <img src={newsItem.image} alt={newsItem.title} />
+            <img src={withPublicUrl(newsItem.image)} alt={newsItem.title} />
           </div>
         )}
 

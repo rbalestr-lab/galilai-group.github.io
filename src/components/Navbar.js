@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 import './Navbar.css';
+import { withPublicUrl } from '../utils/publicUrl';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -63,7 +64,7 @@ const Navbar = () => {
           onBlur={() => setBrandActive(false)}
         >
           <img
-            src="/assets/logos/lab-logo.svg"
+            src={withPublicUrl('/assets/logos/lab-logo.svg')}
             alt="Galilai Group Logo"
             className="navbar-logo"
           />

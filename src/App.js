@@ -13,6 +13,7 @@ import Opportunities from './pages/Opportunities';
 import Projects from './pages/Projects';
 import './App.css';
 import People from './pages/People';
+import { routerBasename, withPublicUrl } from './utils/publicUrl';
 
 // ScrollToTop Component
 const ScrollToTop = () => {
@@ -38,14 +39,14 @@ const App = () => {
   const [people, setPeople] = useState([]);
 
   useEffect(() => {
-    fetch('/data/people.json')
+    fetch(withPublicUrl('/data/people.json'))
       .then(response => response.json())
       .then(data => setPeople(data.people))
       .catch(error => console.error('Error fetching people data:', error));
   }, []);
 
   return (
-    <Router>
+    <Router basename={routerBasename()}>
       <ScrollToTop />
       <div className="App" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }} >
         <Navbar />
