@@ -1,9 +1,27 @@
 {
   "projects": [
     {
-      "title": "temporary title",
-      "description": "",
-      "image": ""
+      "id": "stable-pretraining",
+      "title": "stable-pretraining",
+      "description": "An open-source PyTorch framework for self-supervised pretraining, with real-time visibility into training quality through extensive logging and monitoring.",
+      "thumbnail_image": "",
+      "github": "https://github.com/rbalestr-lab/stable-pretraining",
+      "website": "https://rbalestr-lab.github.io/stable-pretraining/"
+    },
+    {
+        "id": "stable-worldmodel",
+        "title": "stable-worldmodel",
+        "description": "An open-source framework for world model research built on top of Gymnasium, with reproducible data collection, flexible model training, and comprehensive evaluation tools.",
+        "thumbnail_image": "",
+        "github": "https://github.com/rbalestr-lab/stable-worldmodel"
+    },
+    {
+        "id": "stable-dataset",
+        "title": "stable-dataset",
+        "description": "An open-source Hugging Face datasets builder collection for vision and time-series benchmarks, with a custom download + caching pipeline so datasets can be defined and reproduced without bundling the raw files.",
+        "thumbnail_image": "",
+        "github": "https://github.com/rbalestr-lab/stable-datasets"
     }
   ]
 }
+

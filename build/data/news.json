@@ -1,32 +1,20 @@
 {
   "news": [
     {
-      "title": "Prof. Balestriero's collaboration with NYU CDS wins Best Paper Award at ICML Workshop!",
-      "date": "2025-08-12 EDT",
-      "description": "Our joint work on 'Building Physically Plausible World Models' was recognized with the Best Paper Award at ICML. Congratulations to all collaborators!",
-      "link": "https://icml.cc/Conferences/2025/Schedule",
-      "image": ""
+      "id": "neurips-2025",
+      "title": "NeurIPS 2025",
+      "date": "2025-09-18 EDT",
+      "description": "We have five papers accepted by NeurIPS 2025! The full publication list can be found <a href=\"/publications\">here</a>.",
+      "summary": "We have five papers accepted by NeurIPS 2025. Meet us in San Diego!",
+      "thumbnail_image": "/assets/images/neurips_logo.svg"
     },
     {
-      "title": "stable-ssl enters its first major refactor!",
-      "date": "2025-07-12 EDT",
-      "description": "Our open-source self-supervised learning framework, stable-ssl, begins its first major refactor to improve usability, scalability, and modularity for the community.",
-      "link": "https://github.com/BalestrieroLab/stable-ssl",
-      "image": ""
-    },
-    {
-      "title": "Welcoming new Computer Science doctoral student Leyang Hu!",
-      "date": "2025-09-01 EDT",
-      "description": "We are excited to welcome Leyang Hu as a new Ph.D. student in Computer Science. Leyang will be contributing to our projects on large-scale self-supervised learning.",
-      "link": "",
-      "image": ""
-    },
-    {
-      "title": "The group website receives major UI changes and updates!",
-      "date": "2025-08-15 EDT",
-      "description": "Our website has a new look! We've rolled out major UI improvements and updated information about ongoing projects and publications.",
-      "link": "https://balestrierolab.org",
-      "image": ""
+      "id": "stable-pretraining",
+      "title": "stable-pretraining",
+      "date": "2025-09-20 EDT",
+      "description": "We're excited to announce the release of <a href=\"https://github.com/rbalestr-lab/stable-pretraining/tree/v0.1.0\" target=\"_blank\" rel=\"noopener noreferrer\">stable-pretraining</a> v0.1.0, the first major milestone of our open-source framework for self-supervised pretraining.\n\nBuilt on top of PyTorch Lightning, stable-pretraining focuses on providing real-time visibility into training quality—offering detailed logging, monitoring, and a rich callback ecosystem (including OnlineProbe, OnlineKNN, RankMe, and more). The framework makes it easy to inspect representation collapse, training dynamics, and downstream performance, allowing researchers and practitioners to iterate faster and debug more effectively.",
+      "summary": "We're excited to announce the release of stable-pretraining v0.1.0, our open-source framework for self-supervised pretraining. Try it!",
+      "thumbnail_image": "/assets/images/stable_pretraining.svg"
     }
   ]
 }

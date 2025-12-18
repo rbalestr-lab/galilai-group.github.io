@@ -1,0 +1,401 @@
+{
+  "title": "PROJECTS",
+  "projects": [
+    {
+      "title": "LeJEPA: Provable and Scalable Self-Supervised Learning Without the Heuristics",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/lejepa.jpg",
+      "year": "2025",
+      "authors": ["Randall Balestriero", "Yann LeCun"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/abs/2511.08544",
+      "github": "https://github.com/rbalestr-lab/lejepa"
+    },
+    {
+      "title": "FastDINOv2: Frequency Based Curriculum Learning Improves Robustness and Training Speed",
+      "categories": ["Self-Supervised Learning", "Robustness"],
+      "image": "/assets/publication/fast_dinov2.png",
+      "year": "2025",
+      "authors": ["Jiaqi Zhang", "Juntuo Wang", "Zhixin Sun", "John Zou", "Randall Balestriero"],
+      "publication": "NeurIPS 2025",
+      "arxiv": "https://arxiv.org/pdf/2507.03779",
+      "github": "https://github.com/KevinZ0217/fast_dinov2"
+    },
+    {
+      "title": "Joint Embedding vs Reconstruction: Provable Benefits of Latent Space Prediction for Self Supervised Learning",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/joint_embedding_vs_reconstruction.png",
+      "year": "2025",
+      "authors": ["Hugues Van Assel", "Mark Ibrahim", "Tommaso Biancalani", "Aviv Regev", "Randall Balestriero"],
+      "publication": "NeurIPS 2025 (Spotlight)",
+      "arxiv": "https://arxiv.org/abs/2505.12477"
+    },
+    {
+      "title": "Ditch the Denoiser: Emergence of Noise Robustness in Self-Supervised Learning from Data Curriculum",
+      "categories": ["Self-Supervised Learning", "Robustness"],
+      "image": "/assets/publication/ditch_denoiser.png",
+      "year": "2025",
+      "authors": ["Wenquan Lu", "Jiaqi Zhang", "Hugues Van Assel", "Randall Balestriero"],
+      "publication": "NeurIPS 2025",
+      "arxiv": "https://arxiv.org/abs/2505.12191",
+      "github": "https://github.com/wenquanlu/noisy_dinov2"
+    },
+    {
+      "title": "Curvature Tuning: Provable Training-free Model Steering From a Single Parameter",
+      "categories": ["Model Finetuning", "Robustness", "Spline Theory"],
+      "image": "/assets/publication/curvature_tuning.gif",
+      "year": "2025",
+      "authors": ["Leyang Hu", "Matteo Gamba", "Randall Balestriero"],
+      "publication": "NeurIPS 2025",
+      "arxiv": "https://arxiv.org/abs/2502.07783",
+      "github": "https://github.com/Leon-Leyang/curvature-tuning",
+      "blog": "https://leon-leyang.github.io/curvature-tuning-blog-page/"
+    },
+    {
+      "title": "Learning from Reward-Free Offline Data: A Case for Planning with Latent Dynamics Models",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/learning_from_reward_free.jpg",
+      "year": "2025",
+      "authors": ["Vlad Sobal", "Wancong Zhang", "Kynghyun Cho", "Randall Balestriero", "Tim G. J. Rudner", "Yann LeCun"],
+      "publication": "NeurIPS 2025",
+      "arxiv": "https://arxiv.org/abs/2502.14819",
+      "github": "https://github.com/vladisai/PLDM",
+      "blog": "https://latent-planning.github.io/"
+    },
+    {
+      "title": "Why and How Auxiliary Tasks Improve JEPA Representations",
+      "categories": ["Self-Supervised Learning", "Representation Learning"],
+      "image": "/assets/publication/why_and_how_auxiliary.jpg",
+      "year": "2025",
+      "authors": ["Jiacan Yu", "Siyi Che", "Mingrui Liu", "Nono Horiuchi", "Vladimir Braverman", "Zicheng Xu", "Dan Haramati", "Randall Balestriero"],
+      "publication": "NeurIPS 2025 Workshop UniReps",
+      "arxiv": "https://arxiv.org/abs/2509.12249",
+      "github": "https://github.com/jasonyu48/concept_discovery"
+    },
+    {
+      "title": "DIET-CP: Lightweight and Data Efficient Self Supervised Continued Pretraining",
+      "categories": ["Self-Supervised Learning", "Continual Learning"],
+      "image": "/assets/publication/diet_cp.jpg",
+      "year": "2025",
+      "authors": ["Bryan Rodas", "Natalie Montesino", "Jakob Ambsdorf", "David Klindt", "Randall Balestriero"],
+      "publication": "NeurIPS 2025 Workshop UniReps",
+      "arxiv": "https://arxiv.org/abs/2509.06990"
+    },
+    {
+      "title": "MapSAM2: Adapting SAM2 for Automatic Segmentation of Historical Map Images and Time Series",
+      "categories": ["Self-Supervised Learning", "AI for Science"],
+      "image": "/assets/publication/mapsam2.jpg",
+      "year": "2025",
+      "authors": ["Xue Xia", "Randall Balestriero", "Tao Zhang", "Yixin Zhou", "Andrew Ding", "Dev Saini", "Lorenz Hurni"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/abs/2510.27547v1"
+    },
+    {
+      "title": "Gaussian Embeddings: How JEPAs Secretly Learn Your Data Density",
+      "categories": ["Self-Supervised Learning", "Representation Learning"],
+      "image": "/assets/publication/jepa_score.jpg",
+      "year": "2025",
+      "authors": ["Randall Balestriero", "Nicolas Ballas", "Mike Rabbat", "Yann LeCun"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/abs/2510.05949"
+    },
+    {
+      "title": "LLM-JEPA: Large Language Models Meet Joint Embedding Predictive Architectures",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/llm_jepa.jpg",
+      "year": "2025",
+      "authors": ["Hai Huang", "Randall Balestriero", "Yann LeCun"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/abs/2509.14252v2",
+      "github": "https://github.com/rbalestr-lab/llm-jepa"
+    },
+    {
+      "title": "Eidetic Learning: an Efficient and Provable Solution to Catastrophic Forgetting",
+      "categories": ["Continual Learning"],
+      "image": "/assets/publication/eidetic_learning.jpg",
+      "year": "2025",
+      "authors": ["Nicholas Dronen", "Randall Balestriero"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/abs/2502.09500",
+      "github": "https://github.com/amazon-science/eideticnet-training"
+    },
+    {
+      "title": "From Linearity to Non-Linearity: How Masked Autoencoders Capture Spatial Correlations",
+      "categories": ["Representation Learning", "Self-Supervised Learning"],
+      "image": "/assets/publication/linear_to_non_linear.jpg",
+      "year": "2025",
+      "authors": ["Anthony Bisulco", "Rahul Ramesh", "Randall Balestriero", "Pratik Chaudhari"],
+      "publication": "ICCV 2025",
+      "arxiv": "https://arxiv.org/abs/2508.15404"
+    },
+    {
+      "title": "Beyond [cls]: Exploring the True Potential of Masked Image Modeling Representations",
+      "categories": ["Representation Learning"],
+      "image": "/assets/publication/beyond_cls.jpg",
+      "year": "2025",
+      "authors": ["Marcin Przewięźlikowski", "Randall Balestriero", "Wojciech Jasiński", "Marek Śmieja", "Bartosz Zieliński"],
+      "publication": "ICCV 2025",
+      "arxiv": "https://arxiv.org/abs/2412.03215",
+      "github": "https://github.com/gmum/beyond_cls"
+    },
+    {
+      "title": "General Methods Make Great Domain-Specific Foundation Models: A Case-Study on Fetal Ultrasound",
+      "categories": ["Self-Supervised Learning", "AI for Science"],
+      "image": "/assets/publication/fetal_ultrasound.jpg",
+      "year": "2025",
+      "authors": ["Jakob Ambsdorf", "Asbjørn Munk", "Sebastian Llambias", "Anders N. Christensen", "Kamil Mikolaj", "Randall Balestriero", "Martin G. Tolsgaard", "Aasa Feragen", "Mads Nielsen"],
+      "publication": "MICCAI 2025",
+      "arxiv": "https://arxiv.org/abs/2506.19552",
+      "github": "https://github.com/jakobamb/UltraDINO"
+    },
+    {
+      "title": "Your Attention Matters: to Improve Model Robustness to Noise and Spurious Correlations",
+      "categories": ["Robustness"],
+      "image": "/assets/publication/your_attention_matters.jpg",
+      "year": "2025",
+      "authors": ["Camilo Tamayo-Rousseau", "Yunjia Zhao", "Yiqun Zhang", "Randall Balestriero"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/abs/2507.20453",
+      "github": "https://github.com/ctamayor/NeurIPS-Robustness-ViT"
+    },
+    {
+      "title": "Task Priors: Enhancing Model Evaluation by Considering the Entire Space of Downstream Tasks",
+      "categories": ["Representation Learning"],
+      "image": "/assets/publication/task_priors.jpg",
+      "year": "2025",
+      "authors": ["Niket Patel", "Randall Balestriero"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/abs/2507.09871v3",
+      "github": "https://github.com/niketp03/taskpriors"
+    },
+    {
+      "title": "GrokAlign: Geometric Characterisation and Acceleration of Grokking",
+      "categories": ["Mechanistic Interpretability"],
+      "image": "/assets/publication/grok_align.jpg",
+      "year": "2025",
+      "authors": ["Thomas Walker", "Ahmed Imtiaz Humayun", "Randall Balestriero", "Richard Baraniuk"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/abs/2506.12284",
+      "github": "https://github.com/ThomasWalker1/grokalign?tab=readme-ov-file"
+    },
+    {
+      "title": "LoRA Users Beware: A Few Spurious Tokens Can Manipulate Your Finetuned Model",
+      "categories": ["Model Finetuning", "Robustness"],
+      "image": "/assets/publication/spurious_tokens.jpg",
+      "year": "2025",
+      "authors": ["Marcel Mateos Salles", "Praney Goyal", "Pradyut Sekhsaria", "Hai Huang", "Randall Balestriero"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/pdf/2506.11402"
+    },
+    {
+      "title": "Next Token Perception Score: Analytical Assessment of your LLM Perception Skills",
+      "categories": ["Self-Supervised Learning", "Representation Learning"],
+      "image": "/assets/publication/ntps.jpg",
+      "year": "2025",
+      "authors": ["Yu-Ang Cheng", "Leyang Hu", "Hai Huang", "Randall Balestriero"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/abs/2505.17169",
+      "github": "https://github.com/Yu-AngCheng/NTPS"
+    },
+    {
+      "title": "SplInterp: Improving our Understanding and Training of Sparse Autoencoders",
+      "categories": ["Spline Theory"],
+      "image": "/assets/publication/splinterp.jpg",
+      "year": "2025",
+      "authors": ["Jeremy Budd ", "Javier Ideami", "Benjamin Macdowall Rynne", "Keith Duggar", "Randall Balestriero"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/pdf/2505.11836",
+      "github": "https://github.com/splInterp2025/splInterp"
+    },
+    {
+      "title": "Position: An Empirically Grounded Identifiability Theory Will Accelerate Self Supervised Learning Research",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/position.jpg",
+      "year": "2025",
+      "authors": ["Patrik Reizinger ", "Randall Balestriero", "David Klindt", "Wieland Brendel"],
+      "publication": "ICML 2025",
+      "arxiv": "https://arxiv.org/abs/2504.13101"
+    },
+    {
+      "title": "No Location Left Behind: Measuring and Improving the Fairness of Implicit Representations for Earth Data",
+      "categories": ["Fairness in AI", "AI for Science"],
+      "image": "/assets/publication/no_location_left_behind.jpg",
+      "year": "2025",
+      "authors": ["Daniel Cai", "Randall Balestriero"],
+      "publication": "ICLR 2025",
+      "arxiv": "https://arxiv.org/abs/2502.06831",
+      "github": "https://github.com/raccooncai448/FAIREarth"
+    },
+    {
+      "title": "X-Sample Contrastive Loss: Improving Contrastive Learning with Sample Similarity Graphs",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/x_sample.jpg",
+      "year": "2025",
+      "authors": ["Vlad Sobal", "Mark Ibrahim", "Randall Balestriero", "Vivien Cabannes", "Diane Bouchacourt", "Pietro Astolf", "Kyunghyun Cho", "Yann LeCun"],
+      "publication": "ICLR 2025",
+      "arxiv": "https://arxiv.org/abs/2407.18134"
+    },
+    {
+      "title": "Cross-Entropy Is All You Need To Invert the Data Generating Process",
+      "categories": ["Representation Learning"],
+      "image": "/assets/publication/cross_entropy.jpg",
+      "year": "2025",
+      "authors": ["Patrik Reizinger", "Alice Bizeul", "Attila Juhos", "Julia E. Vogt", "Randall Balestriero", "Wieland Brendel", "David Klindt"],
+      "publication": "ICLR 2025",
+      "arxiv": "https://arxiv.org/abs/2410.21869",
+      "github": "https://github.com/klindtlab/csi"
+    },
+    {
+      "title": "On the Geometry of Deep Learning",
+      "categories": ["Spline Theory"],
+      "image": "/assets/publication/geometry_of_dl.jpg",
+      "year": "2025",
+      "authors": ["Randall Balestriero", "Ahmed Imtiaz Humayun ", "Richard Baraniuk"],
+      "publication": "Notices of the American Mathematical Society",
+      "arxiv": "https://arxiv.org/abs/2408.04809"
+    },
+    {
+      "title": "The Fair Language Model Paradox",
+      "categories": ["Fairness in AI"],
+      "image": "/assets/publication/fair_language_model.jpg",
+      "year": "2024",
+      "authors": ["Andrea Pinto", "Tomer Galanti", "Randall Balestriero"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/abs/2410.11985"
+    },
+    {
+      "title": "ALLoRA: Adaptive Learning Rate Mitigates LoRA Fatal Flaws",
+      "categories": ["Model Finetuning"],
+      "image": "/assets/publication/allora.jpg",
+      "year": "2024",
+      "authors": ["Hai Huang", "Randall Balestriero"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/abs/2410.09692"
+    },
+    {
+      "title": "DeepTensor: Low-Rank Tensor Decomposition With Deep Network Priors",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/deep_tensor.jpg",
+      "year": "2024",
+      "authors": ["Vishwanath Saragadam", "Randall Balestriero", "Ashok Veeraraghavan", "Richard Baraniuk"],
+      "publication": "TPAMI 2024",
+      "arxiv": "https://arxiv.org/abs/2204.03145",
+      "github": "https://github.com/vishwa91/DeepTensor"
+    },
+    {
+      "title": "Mitigating over-exploration in latent space optimization using LES",
+      "categories": ["Spline Theory"],
+      "image": "/assets/publication/les.jpg",
+      "year": "2024",
+      "authors": ["Omer Ronen", "Ahmed Imtiaz Humayun", "Richard Baraniuk", "Randall Balestriero", "Bin Yu"],
+      "publication": "ICML 2024 Workshop AI4Science",
+      "arxiv": "https://arxiv.org/abs/2406.09657",
+      "github": "https://github.com/OmerRonen/les"
+    },
+    {
+      "title": "Deep Networks Always Grok and Here is Why",
+      "categories": ["Spline Theory"],
+      "image": "/assets/publication/dn_always_grok.jpg",
+      "year": "2024",
+      "authors": ["Ahmed Imtiaz Humayun", "Randall Balestriero", "Richard Baraniuk "],
+      "publication": "ICML 2024",
+      "arxiv": "https://arxiv.org/abs/2402.15555",
+      "github": "https://github.com/AhmedImtiazPrio/grok-adversarial",
+      "blog": "https://imtiazhumayun.github.io/grokking/"
+    },
+    {
+      "title": "Learning by Reconstruction Produces Uninformative Features For Perception",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/learning_by_reconstruction.jpg",
+      "year": "2024",
+      "authors": ["Randall Balestriero", "Yann LeCun"],
+      "publication": "ICML 2024",
+      "arxiv": "https://arxiv.org/abs/2402.11337",
+      "github": "https://github.com/RandallBalestriero/LearningByReconstruction"
+    },
+    {
+      "title": "GPS-SSL: Guided Positive Sampling to Inject Prior Into Self-Supervised Learning",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/gps_ssl.jpg",
+      "year": "2024",
+      "authors": ["Aarash Feizi", "Randall Balestriero", "Adriana Romero-Soriano", "Reihaneh Rabbany"],
+      "publication": "Arxiv",
+      "arxiv": "https://arxiv.org/abs/2401.01990",
+      "github": "https://github.com/aarashfeizi/gps-ssl"
+    },
+    {
+      "title": "UniBench: Visual Reasoning Requires Rethinking Vision-Language Beyond Scaling",
+      "categories": ["Benchmark"],
+      "image": "/assets/publication/unibench.jpg",
+      "year": "2024",
+      "authors": ["Haider Al-Tahan", "Quentin Garrido", "Randall Balestriero", "Diane Bouchacourt", " Caner Hazirbas", "Mark Ibrahim"],
+      "publication": "NeurIPS 2024",
+      "arxiv": "https://arxiv.org/abs/2408.04810",
+      "github": "https://github.com/facebookresearch/unibench?tab=readme-ov-file"
+    },
+    {
+      "title": "Self-supervised Video Instance Segmentation Can Boost Geographic Entity Alignment in Historical Maps",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/video_instance_segmentation.jpg",
+      "year": "2024",
+      "authors": ["Xue Xia","Randall Balestriero", "Tao Zhang", "Lorenz Hurni"],
+      "publication": "NeurIPS 2024 Workshop SSL",
+      "arxiv": "https://arxiv.org/abs/2411.17425"
+    },
+    {
+      "title": "Self-Supervised Anomaly Detection in the Wild: Favor Joint Embeddings Methods",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/anomaly_detection.jpg",
+      "year": "2024",
+      "authors": ["Daniel Otero", "Rafael Mateus", "Randall Balestriero"],
+      "publication": "NeurIPS 2024 Workshop SSL",
+      "arxiv": "https://arxiv.org/abs/2410.04289",
+      "github": "https://github.com/daoterog/ssl-4-anomaly"
+    },
+    {
+      "title": "Occam's Razor for Self Supervised Learning: What is Sufficient to Learn Good Representations?",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/occam_razor.jpg",
+      "year": "2024",
+      "authors": ["Mark Ibrahim", "David Klindt", "Randall Balestriero"],
+      "publication": "NeurIPS 2024 Workshop SSL",
+      "arxiv": "https://arxiv.org/abs/2406.10743"
+    },
+    {
+      "title": "For Perception Tasks: The Cost of LLM Pretraining by Next-Token Prediction Outweigh its Benefits",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/for_perception_tasks.jpg",
+      "year": "2024",
+      "authors": ["Randall Balestriero", "Hai Huang"],
+      "publication": "NeurIPS 2024 Workshop SSL",
+      "arxiv": "https://openreview.net/pdf?id=wYGBWOjq1Q"
+    },
+    {
+      "title": "The Birth of Self Supervised Learning: A Supervised Theory",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/birth_of_ssl.jpg",
+      "year": "2024",
+      "authors": ["Randall Balestriero", "Yann LeCun"],
+      "publication": "NeurIPS 2024 Workshop SSL",
+      "arxiv": "https://openreview.net/pdf?id=NhYAjAAdQT"
+    },
+    {
+      "title": "A Graph Matching Approach to Balanced Data Sub-Sampling for Self-Supervised Learning",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/graph_matching_approach.jpg",
+      "year": "2024",
+      "authors": ["Hugues Van Assel", "Randall Balestriero"],
+      "publication": "NeurIPS 2024 Workshop SSL",
+      "arxiv": "https://openreview.net/pdf?id=TsMdJULS9o"
+    },
+    {
+      "title": "DIETing: Self-Supervised Learning with Instance Discrimination Learns Identifiable Features",
+      "categories": ["Self-Supervised Learning"],
+      "image": "/assets/publication/dieting.jpg",
+      "year": "2024",
+      "authors": ["Attila Juhos", "Alice Bizeul", "Patrik Reizinger", "David Klindt", "Randall Balestriero", "Mark Ibrahim", "Julia E. Vogt", "Wieland Brendel"],
+      "publication": "NeurIPS 2024 Workshop UniReps",
+      "arxiv": "https://openreview.net/pdf?id=B59jV8cAQq"
+    }
+  ]
+}

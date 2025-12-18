@@ -1,0 +1,18 @@
+{
+  "sectionTitle": "Research Opportunities",
+  "items": [
+    {
+      "id": "postdoctoral-positions-2025",
+      "title": "Postdoctoral fellow in representation learning, theoretical aspects of machine learning, and applied AI for physical sciences",
+      "date": "2025-07-01",
+      "description": "Join us to push the boundaries of representation learning, theoretical machine learning, and applied AI for the physical sciences. Candidates with a strong publication record in self-supervised learning or generative modeling are especially encouraged to apply."
+    },
+    {
+      "id": "undergraduate-research-2025",
+      "title": "Undergraduate and master's research assistants",
+      "date": "2025-05-15",
+      "description": "We welcome undergraduate and master’s students in computer science, applied math, and engineering who are eager to explore large-scale self-supervised learning and AI for science. Prior research experience is helpful but not required."
+    }
+  ]
+}
+

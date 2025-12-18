@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.21547b1c.css",
-    "main.js": "/static/js/main.acfa164d.js",
-    "static/js/488.e6697656.chunk.js": "/static/js/488.e6697656.chunk.js",
-    "index.html": "/index.html",
-    "main.21547b1c.css.map": "/static/css/main.21547b1c.css.map",
-    "main.acfa164d.js.map": "/static/js/main.acfa164d.js.map",
-    "488.e6697656.chunk.js.map": "/static/js/488.e6697656.chunk.js.map"
+    "main.css": "/galilai-group.github.io/static/css/main.a0d5e3b7.css",
+    "main.js": "/galilai-group.github.io/static/js/main.b7adc186.js",
+    "index.html": "/galilai-group.github.io/index.html",
+    "main.a0d5e3b7.css.map": "/galilai-group.github.io/static/css/main.a0d5e3b7.css.map",
+    "main.b7adc186.js.map": "/galilai-group.github.io/static/js/main.b7adc186.js.map"
   },
   "entrypoints": [
-    "static/css/main.21547b1c.css",
-    "static/js/main.acfa164d.js"
+    "static/css/main.a0d5e3b7.css",
+    "static/js/main.b7adc186.js"
   ]
 }

@@ -2,7 +2,7 @@
     "people": [
       {
         "name": "Randall Balestriero",
-        "role": "pi",
+        "role": "faculty",
         "role_title":"Assistant Professor of Computer Science",
         "image": "/assets/people/rbalestr_photo.jpg",
         "researchInterests": "Self Supervised Learning, Computer Vision, Machine Learning",
@@ -12,8 +12,8 @@
       {
         "name": "Leyang Hu",
         "role": "phd",
-        "role_title": "Incoming PhD",
-        "image": "/assets/people/微信图片_20250310161241.jpg",
+        "role_title": "PhD Student",
+        "image": "/assets/people/leyang_hu.jpg",
         "researchInterests": "Deep Learning Theory, SSL",
         "personalWebsite": "https://scholar.google.com/citations?user=_pVM1y4AAAAJ&hl=en"
       },
@@ -21,19 +21,12 @@
       {
         "name": "Hugues Van Assela",
         "role":"visiting-researcher",
-        "role_title": "Visiting Researcher, Postdoc @ Genetech",
+        "role_title": "Postdoc @ Genetech",
         "image": "/assets/people/hugues_van_assel.png",
         "researchInterests": "SSL, Optimal Transport, Data Selection, Dimensionality Reduction",
         "personalWebsite": "https://huguesva.github.io"
       },
 
-      {
-        "name": "Rika Antonova",
-        "role": "postdoc",
-        "image": "/assets/people/male.jpg",
-        "researchInterests": "Neural Networks, Sensorimotor Control",
-        "personalWebsite": "https://example.com/rika-antonova"
-      },
       {
         "name": "Wenquan Lu ",
         "role": "Masters & Undergrads",
@@ -44,6 +37,24 @@
       },
 
       {
+        "name": "Jiaqi Zhang",
+        "role": "Masters & Undergrads",
+        "role_title": "Master's Researcher '26",
+        "image": "/assets/people/jiaqi_zhang.jpg",
+        "researchInterests": "Computer Vision, Vision Foundation Model, Model Robustness, Representation Learning, Neuro-inspired Neural Network",
+        "personalWebsite": "https://www.linkedin.com/in/jiaqi-zhang-491746221/"
+      },
+
+      {
+        "name": "Heejeong Nam",
+        "role": "Masters & Undergrads",
+        "role_title": "Master's Researcher '27",
+        "image": "/assets/people/heejeong_nam.jpg",
+        "researchInterests": "Disentangled/Causal Representation Learning",
+        "personalWebsite": "https://hazel-heejeong-nam.github.io/"
+      },
+
+      {
         "name": "Marcel Mateos Salles",
         "role": "Masters & Undergrads",
         "role_title":"Undergrad Researcher '26",
@@ -51,6 +62,7 @@
         "researchInterests": "LLMs, Interpretability of Models, SSL, HCI",
         "personalWebsite": "https://www.linkedin.com/in/marcelmatsal/"
       },
+
       {
         "name": "Daniel Cai",
         "role": "Masters & Undergrads",
@@ -59,6 +71,7 @@
         "researchInterests": "SSL, AI for science, Computer Vision",
         "personalWebsite": ""
       },
+
       {
         "name": "Ian Hajra",
         "role": "Masters & Undergrads",
@@ -67,30 +80,69 @@
         "researchInterests": "SSL, Security, Mathematical Finance",
         "personalWebsite": "https://github.com/ianhajra"
       },
+
       {
         "name": "Nick Masi",
         "role": "alumni",
-        "role_title": "Sc.M., Sc.B. Computer Science '25",
+        "role_title": "Undergrad Researcher '25",
         "image": "/assets/people/nick_masi.jpg",
         "researchInterests": "Fairness and Interpretability, Governance, Climate Modeling, Language Models",
         "personalWebsite": "https://n-masi.github.io/"
       },
+
       {
         "name": "Kyle Lam",
         "role": "alumni",
-        "role_title": "Sc.B. Computer Science, Honors; Sc.B. Biochemistry '25",
+        "role_title": "Undergrad Researcher '25",
         "image": "/assets/people/kyle_lam.jpg",
         "researchInterests": "Representation Learning, Computer Vision, AI for science, High Performance Computing",
         "personalWebsite": "https://www.kylelam.dev/"
       },
+
       {
         "name": "Chia-Hong HSU",
         "role": "alumni",
-        "role_title": "Sc.M. Computer Science '25",
-        "now": "PhD student @ University of British Columbia",
+        "role_title": "Master's Researcher '25",
         "image": "/assets/people/chia_hong_hsu.jpg",
         "researchInterests": "Diffusion Models, Consistency Models, Continual Learning, Training Curriculum",
         "personalWebsite": "https://swimmincatt35.github.io"
+      },
+
+      {
+        "name": "Pradyut Sekhsaria",
+        "role": "alumni",
+        "role_title": "Master's Researcher '25",
+        "image": "/assets/people/placeholder_person.png",
+        "researchInterests": "Language models, Machine Learning",
+        "personalWebsite": "https://www.linkedin.com/in/pradyut-sekhsaria/"
+      },
+
+      {
+        "name": "Matteo Gamba",
+        "role":"visiting-researcher",
+        "role_title": "Visiting Researcher @ Brown",
+        "image": "/assets/people/matteo_gamba.jpg",
+        "researchInterests": "",
+        "personalWebsite": "https://www.matteogamba.me/"
+      },
+
+      {
+        "name": "Lucas Maes",
+        "role":"visiting-researcher",
+        "role_title": "PhD Student @ Mila",
+        "image": "/assets/people/lucas_maes.jpg",
+        "researchInterests": "",
+        "personalWebsite": "https://lucasmaes.bearblog.dev/"
+      },
+
+      {
+        "name": "Pranav Sankar",
+        "role": "Masters & Undergrads",
+        "role_title": "Master's Researcher '27",
+        "image": "/assets/people/pranav_sankar.png",
+        "researchInterests": "Quantitative Finance, World Models, Deep Learning",
+        "personalWebsite": "https://x.com/pranavsankar_"
       }
+
     ]
   }
