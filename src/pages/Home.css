@@ -243,10 +243,16 @@
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   .home-group-photo {
-    margin-top: -90px;
-    padding: 25px 15px 45px;
-    padding-top: calc(25px + 70px);
+    margin-top: 70px;
+    padding: 0;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
   }
+
+  .home-container {
+    margin-top: -90px;
+  }
+
 
   .homepage-video {
     max-height: 300px;
@@ -348,5 +354,9 @@
   .arrow {
     width: 25px;
     height: 25px;
+  }
+
+  .home-container {
+    margin-top: -5px;
   }
 }
