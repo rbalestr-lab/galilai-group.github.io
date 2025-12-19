@@ -4,13 +4,16 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: -92px;
 }
 
 .home-group-photo {
   width: 100vw;
-  margin: -92px calc(50% - 50vw) 0px;
-  padding: 30px 20px 50px;
-  padding-top: calc(30px + 72px);
+  margin-top: 72px;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-bottom: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   background-color: #732822;
@@ -20,7 +23,6 @@
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 1200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,10 +30,8 @@
 
 .homepage-video {
   width: 100%;
-  max-width: 1200px;
   height: auto;
-  max-height: 500px;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
 }
 
@@ -71,8 +71,8 @@
 
 
 /* New Sections Styling */
-.news-section, 
-.diversity-section, 
+.news-section,
+.diversity-section,
 .opportunities-section {
   width: 100%;
   padding: 80px 0;
@@ -134,7 +134,7 @@
   display: none;
 }
 
-.news-content, 
+.news-content,
 .diversity-content,
 .opportunities-content {
   width: 65%;
@@ -154,7 +154,7 @@
   margin-bottom: 15px;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
@@ -206,7 +206,7 @@
     flex-wrap: wrap;
     gap: 20px;
   }
-  
+
   .funding-logos img {
     max-height: 100px;
     max-width: 180px;
@@ -224,14 +224,14 @@
   background-color: white;
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: all 0.3s ease;
 }
 
 .area-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 768px) {
@@ -278,7 +278,8 @@
   }
 
   .section-header h2 {
-    font-size: 28px; /* Smaller section titles */
+    font-size: 28px;
+    /* Smaller section titles */
   }
 
   /* News items */
@@ -327,7 +328,8 @@
   }
 
   .btn {
-    padding: 8px 20px; /* Smaller button size */
+    padding: 8px 20px;
+    /* Smaller button size */
     font-size: 14px;
   }
 }
