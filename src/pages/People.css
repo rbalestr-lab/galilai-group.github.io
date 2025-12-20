@@ -18,13 +18,17 @@
 
 .people-content {
   box-sizing: border-box;
-  max-width: var(--people-content-max-width);
-  /* Anchor right-side content relative to viewport so the gap stays constant */
-  margin-left: calc(
-    var(--randall-page-left) +
-    var(--randall-card-width) +
-    var(--randall-gap)
+  /* 
+   * For centered content, left edge = (viewport - width) / 2
+   * Content left must be >= Randall right + gap = 20px + 220px + 40px = 280px
+   * So: (viewport - width) / 2 >= 280  =>  width <= viewport - 560px
+   */
+  max-width: min(
+    var(--people-content-max-width),
+    calc(100vw - 2 * (20px + var(--randall-card-width) + var(--randall-gap)))
   );
+  /* Center the content horizontally */
+  margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
 }
@@ -74,11 +78,11 @@
 
 .people-grid {
   display: grid;
-  /* Fixed column width => photos never shrink; we reduce column count instead */
-  grid-template-columns: repeat(4, var(--people-photo-size));
+  /* Auto-fill columns: wrap to next row when container is too narrow */
+  grid-template-columns: repeat(auto-fill, var(--people-photo-size));
   column-gap: var(--people-col-gap);
   row-gap: var(--people-row-gap);
-  width: fit-content;
+  width: 100%;
   max-width: 100%;
   margin: 0;
   padding: 0;
@@ -97,7 +101,16 @@
 .person-card.randall-card {
   position: fixed;
   width: var(--randall-card-width);
-  left: var(--randall-page-left);
+  /* Position relative to centered content's left edge, keeping the gap unchanged */
+  left: max(
+    20px,
+    calc(
+      50% 
+      - var(--people-content-max-width) / 2 
+      - var(--randall-gap) 
+      - var(--randall-card-width)
+    )
+  );
   top: 50vh;
   transform: translateY(-50%);
   z-index: 1;
@@ -106,7 +119,10 @@
 /* Make sure the right content doesn't get squeezed on medium screens */
 @media (max-width: 900px) {
   .people-content {
-    max-width: min(var(--people-content-max-width), calc(100vw - 20px));
+    max-width: min(
+      var(--people-content-max-width),
+      calc(100vw - 2 * (20px + var(--randall-card-width) + var(--randall-gap)))
+    );
   }
 }
 
@@ -132,25 +148,7 @@
   }
 }
 
-/* Reduce columns as width goes down (photo size + gaps stay fixed) */
-@media (max-width: 1280px) {
-  .people-grid {
-    grid-template-columns: repeat(3, var(--people-photo-size));
-  }
-}
-
-@media (max-width: 1024px) {
-  .people-grid {
-    grid-template-columns: repeat(2, var(--people-photo-size));
-  }
-}
-
-/* One person on the right while Randall is still floating on the left */
-@media (max-width: 820px) {
-  .people-grid {
-    grid-template-columns: repeat(1, var(--people-photo-size));
-  }
-}
+/* Column wrapping is now handled automatically by auto-fill */
 
 
 
