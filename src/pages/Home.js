@@ -80,7 +80,7 @@ const Home = () => {
             playsInline
             aria-label="Galilai Group video"
           >
-            <source src={withPublicUrl('/assets/videos/galilai_broll_v2.mp4')} type="video/mp4" />
+            <source src={withPublicUrl('/assets/videos/galilai_broll_v3.mp4')} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
