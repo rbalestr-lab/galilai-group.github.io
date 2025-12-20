@@ -35,6 +35,83 @@
   display: block;
 }
 
+.home-scroll-arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 168px;
+  transform: translateX(-50%);
+  width: 84px;
+  height: 64px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  animation: homeScrollArrowBounce 1.3s ease-in-out infinite;
+  appearance: none;
+  -webkit-appearance: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.home-scroll-arrow-icon {
+  width: 70px;
+  height: 44px;
+}
+
+.home-scroll-arrow-icon polyline {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.home-scroll-arrow-shadow {
+  stroke: rgba(0, 0, 0, 0.45);
+  stroke-width: 7.5;
+}
+
+.home-scroll-arrow-chevron {
+  stroke: rgba(255, 255, 255, 0.95);
+  stroke-width: 4.5;
+}
+
+.home-scroll-arrow:hover .home-scroll-arrow-chevron {
+  stroke: rgba(255, 255, 255, 1);
+}
+
+.home-scroll-arrow:focus-visible {
+  outline: 3px solid rgba(255, 255, 255, 0.9);
+  outline-offset: 6px;
+  border-radius: 10px;
+}
+
+.home-scroll-arrow:focus {
+  outline: none;
+}
+
+.home-scroll-arrow:focus:not(:focus-visible) {
+  outline: none;
+}
+
+@keyframes homeScrollArrowBounce {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-12px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-scroll-arrow {
+    animation: none;
+  }
+}
+
 .home-text {
   width: 65%;
   max-width: 900px;
@@ -354,6 +431,17 @@
   .arrow {
     width: 25px;
     height: 25px;
+  }
+
+  .home-scroll-arrow {
+    width: 64px;
+    height: 48px;
+    bottom: 32px;
+  }
+
+  .home-scroll-arrow-icon {
+    width: 54px;
+    height: 34px;
   }
 
   .home-container {

@@ -6,6 +6,7 @@ import { withPublicUrl } from '../utils/publicUrl';
 
 const Home = () => {
   const newsRef = useRef(null);
+  const welcomeRef = useRef(null);
   const location = useLocation();
   const [newsData, setNewsData] = useState(null);
   const [opportunitiesData, setOpportunitiesData] = useState(null);
@@ -62,6 +63,17 @@ const Home = () => {
     sessionStorage.setItem('homeScroll', window.scrollY.toString());
   };
 
+  const handleScrollToWelcome = () => {
+    const el = welcomeRef.current;
+    if (!el) return;
+
+    // Keep the heading from sitting under the fixed navbar.
+    const NAVBAR_OFFSET_PX = 92;
+    const y = el.getBoundingClientRect().top + window.scrollY - NAVBAR_OFFSET_PX;
+
+    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' });
+  };
+
   if (!newsData || !opportunitiesData) {
     return <div className="loading">Loading...</div>;
   }
@@ -83,11 +95,29 @@ const Home = () => {
             <source src={withPublicUrl('/assets/videos/galilai_broll_v2.mp4')} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+
+          <button
+            type="button"
+            className="home-scroll-arrow"
+            onClick={handleScrollToWelcome}
+            aria-label="Scroll to Welcome to Galilai Group section"
+          >
+            <svg
+              className="home-scroll-arrow-icon"
+              viewBox="0 0 48 30"
+              role="img"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <polyline className="home-scroll-arrow-shadow" points="4,4 24,26 44,4" />
+              <polyline className="home-scroll-arrow-chevron" points="4,4 24,26 44,4" />
+            </svg>
+          </button>
         </div>
       </div>
 
       {/* Intro Section */}
-      <div className="home-text">
+      <div className="home-text" ref={welcomeRef} id="welcome">
         <h1 className="publication-heading">Welcome to Galilai Group</h1>
         <p className="home-intro-body">
         At Galilai Group, we study both the theory and practice of deep learning. We use theory to guide practice, and use practical observations to inform new theory.
