@@ -5,6 +5,11 @@
   align-items: center;
   text-align: center;
   margin-top: -92px;
+  
+  /* Shared width settings for consistent section widths */
+  --home-section-width: 65%;
+  --home-section-max-width: 900px;
+  --home-section-padding: 0 20px;
 }
 
 .home-group-photo {
@@ -113,10 +118,11 @@
 }
 
 .home-text {
-  width: 65%;
-  max-width: 900px;
+  width: var(--home-section-width);
+  max-width: var(--home-section-max-width);
   margin: 140px auto 60px;
-  padding: 0 20px;
+  padding: var(--home-section-padding);
+  box-sizing: border-box;
   color: #111827;
   text-align: left;
   display: flex;
@@ -164,10 +170,11 @@
 .news-section .section-header,
 .opportunities-section .section-header {
   text-align: left;
-  width: 65%;
-  max-width: 900px;
+  width: var(--home-section-width);
+  max-width: var(--home-section-max-width);
   margin: 0 auto 20px;
-  padding: 0 20px;
+  padding: var(--home-section-padding);
+  box-sizing: border-box;
 }
 
 .news-section .publication-heading,
@@ -214,11 +221,46 @@
 .news-content,
 .diversity-content,
 .opportunities-content {
-  width: 65%;
-  max-width: 900px;
+  width: var(--home-section-width);
+  max-width: var(--home-section-max-width);
   margin: 0 auto 80px;
-  padding: 0 20px;
+  padding: var(--home-section-padding);
   text-align: left;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Ensure news and opportunities entries don't overflow the container */
+.news-content .news-listings,
+.news-content .news-listings ul,
+.news-content .news-post,
+.opportunities-content .news-listings,
+.opportunities-content .news-listings ul,
+.opportunities-content .news-post {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.news-content .post-content-wrapper,
+.opportunities-content .post-content-wrapper {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Ensure post titles and descriptions don't overflow */
+.home-news-list .post-title,
+.home-news-list .post-description,
+.home-opportunities-list .post-title,
+.home-opportunities-list .post-description {
+  max-width: 100%;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .news-item ul {

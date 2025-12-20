@@ -98,6 +98,7 @@
   display: flex;
   gap: 1.5rem;
   width: 100%;
+  min-width: 0;
   padding: 4rem 0;
 }
 
@@ -113,6 +114,7 @@
   flex-direction: column;
   gap: 0.65rem;
   flex: 1 1 0;
+  min-width: 0;
 }
 
 .post-content-wrapper a {

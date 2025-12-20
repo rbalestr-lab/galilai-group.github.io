@@ -39,15 +39,15 @@
   transform: translateY(-3px);
 }
 
-.opportunities-section {
+.opportunities-page .opportunities-section {
   padding: 0;
 }
 
-.opportunities-content {
+.opportunities-page .opportunities-content {
   width: 100%;
 }
 
-.opportunities-section .news-listings {
+.opportunities-page .opportunities-section .news-listings {
   margin-top: 0;
   width: 100%;
 }
