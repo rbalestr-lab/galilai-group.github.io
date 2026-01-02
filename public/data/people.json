@@ -150,6 +150,14 @@
         "role_title": "Undergrad Researcher '26",
         "image": "/assets/images/people/taj_gillin.png",
         "personalWebsite": "https://tajgillin.com"
+      },
+
+      {
+        "name": "Charlie Duong",
+        "role": "Masters & Undergrads",
+        "role_title": "Undergrad Researcher '26",
+        "image": "/assets/images/people/charlie_duong.png",
+        "personalWebsite": "https://cduong.dev/"
       }
     ]
   }
