@@ -19,9 +19,9 @@
       },
 
       {
-        "name": "Hugues Van Assela",
+        "name": "Hugues Van Assel",
         "role":"visiting-researcher",
-        "role_title": "Postdoc @ Genetech",
+        "role_title": "Postdoc @ Genentech",
         "image": "/assets/people/hugues_van_assel.png",
         "researchInterests": "SSL, Optimal Transport, Data Selection, Dimensionality Reduction",
         "personalWebsite": "https://huguesva.github.io"
