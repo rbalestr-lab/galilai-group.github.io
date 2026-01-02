@@ -3,15 +3,15 @@
     {
       "id": "stable-dataset",
       "title": "stable-dataset",
-      "description": "An open-source Hugging Face datasets builder collection for vision and time-series benchmarks, with a custom download + caching pipeline so datasets can be defined and reproduced without bundling the raw files.",
-      "thumbnail_image": "",
+      "description": "An open-source dataset collection for vision and time-series benchmarks, with a custom download and caching pipeline enabling reproducibility without bundling raw files.",
+      "thumbnail_image": "/assets/images/projects/stable_dataset.svg",
       "github": "https://github.com/rbalestr-lab/stable-datasets"
     },
     {
       "id": "stable-pretraining",
       "title": "stable-pretraining",
       "description": "An open-source PyTorch framework for self-supervised pretraining, with real-time visibility into training quality through extensive logging and monitoring.",
-      "thumbnail_image": "",
+      "thumbnail_image": "/assets/images/projects/stable_pretraining.svg",
       "github": "https://github.com/rbalestr-lab/stable-pretraining",
       "website": "https://rbalestr-lab.github.io/stable-pretraining/"
     },
@@ -19,9 +19,16 @@
         "id": "stable-worldmodel",
         "title": "stable-worldmodel",
         "description": "An open-source framework for world model research built on top of Gymnasium, with reproducible data collection, flexible model training, and comprehensive evaluation tools.",
-        "thumbnail_image": "",
+        "thumbnail_image": "/assets/images/projects/stable_worldmodel.svg",
         "github": "https://github.com/rbalestr-lab/stable-worldmodel"
-    }
+    },
+    {
+      "id": "ssl-cookbook",
+      "title": "Self-Supervised Learning Cookbook",
+      "description": "A cookbook of self-supervised learning, synthesizing theory, practice, and design choices across SSL families to lower the barrier to effective representation learning.",
+      "thumbnail_image": "/assets/images/projects/ssl_cookbook.svg",
+      "paper": "https://arxiv.org/abs/2304.12210"
+  }
   ]
 }
 
